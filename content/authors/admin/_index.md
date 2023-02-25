@@ -1,34 +1,33 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Anushka Mitra
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Anushka
+last_name: Mitra
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☕
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 5th year PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The University of Texas at Austin
+    url: https://www.liberalarts.utexas.edu/economics/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Macroeconomics
+  - Macro-labor
 
 # Education to show in About widget
 education:
@@ -53,16 +52,16 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/onushka_mitro
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+ #   icon_pack: fas
+  #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/anushka-mitra
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
