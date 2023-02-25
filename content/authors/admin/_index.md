@@ -14,7 +14,8 @@ last_name: Mitra
 superuser: true
 
 # Role/position/tagline
-role: 5th year PhD Student
+role: 5th year PhD Candidate,
+      Department of Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -32,15 +33,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Economics
+      institution: The University of Texas at Austin
+      year: 2018-2023
+    - course: MA in Economics
+      institution: Delhi School of Economics
+      year: 2016
+    - course: BSc in Economics
+      institution: Presidency University
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -49,7 +50,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:anushka@utexas.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/onushka_mitro
@@ -73,11 +74,11 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'anushka@utexas.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Welcome! I am a 5th year PhD Candidate at the Department of Economics at the University of Texas at Austin. My primary research interests are in Macroeonomics and Labor Markets. 
 {style="text-align: justify;"}
