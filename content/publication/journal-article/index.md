@@ -17,15 +17,12 @@ url_pdf: http://arxiv.org/pdf/1512.04133v1
 publication_types:
   - "3"
 authors:
-  - Mitra
-  - Anushka;Singh
-  - Aditi
+  - admin; Aditi
+  - Singh
 summary: ""
 url_dataset: ""
 url_project: ""
-author_notes:
-  - Equal contribution
-  - Equal contribution
+author_notes: []
 publication_short: ""
 url_source: ""
 url_video: ""
