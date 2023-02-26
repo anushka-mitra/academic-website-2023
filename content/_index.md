@@ -31,7 +31,7 @@ sections:
   - block: collection
     id: about
     content:
-      title: about.avatar
+      title: avatar.jpg
       filters:
         folders:
           - admin
