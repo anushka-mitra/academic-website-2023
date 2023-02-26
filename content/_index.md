@@ -28,13 +28,13 @@ sections:
     design:
       columns: '2'
       view: citation
- # - block: collection
-    id: talks
+  - block: collection
+    id: about
     content:
-      title: Recent & Upcoming Talks
+      title: about.avatar
       filters:
         folders:
-          - event
+          - admin
     design:
       columns: '2'
       view: compact
