@@ -7,10 +7,10 @@ main:
   #- name: Home
   #  url: '#about'
    # weight: 10
-  - name: Posts
+  - name: Research
     url: '#posts'
     weight: 10
-  - name: Projects
+  - name: Teaching
     url: '#projects'
     weight: 20
   - name: CV
