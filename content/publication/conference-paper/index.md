@@ -20,8 +20,7 @@ url_pdf: ""
 publication_types:
   - "3"
 authors:
-  - Mitra
-  - Anushka
+  - admin
 summary: ""
 url_dataset: https://github.com/wowchemy/wowchemy-hugo-themes
 url_project: ""
