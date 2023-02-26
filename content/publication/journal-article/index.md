@@ -16,9 +16,7 @@ slides: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 publication_types:
   - "3"
-authors:
-  - admin; Aditi
-  - Singh
+authors: []
 summary: ""
 url_dataset: ""
 url_project: ""
