@@ -83,4 +83,6 @@ highlight_name: true
   
 <p style="font-family:rose;text-align: justify;"><b>Research Interests:</b> Macroeonomics, Labor Markets.</p>
 
+For more information, please see my < p style="color: #bf5700">{{% staticref "uploads/Mitra_Anushka_CV.pdf" "newtab" %}}CV{{% /staticref %}}</p> or contact me at < p style="color: #bf5700"><a href="anushka@utexas.edu">anushka@utexas.edu</a></p>
+
 
