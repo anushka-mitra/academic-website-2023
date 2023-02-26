@@ -17,7 +17,7 @@ abstract: >
   vacancies, consistent with the model’s implications. 
 tags: []
 slides: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: 
 publication_types:
   - "3"
 authors:
