@@ -7,12 +7,10 @@ type: landing
 sections:
   - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      # Override your bio text from `authors/admin/_index.md`?
       title: Anushka Mitra
-      image: avatar.png
+      image: 
         # Reference an image in your `assets/media/` folder
-       # filename: hero-academic.png
+        filename: hero-academic.png
       # Add your Call-To-Action (CTA) button and optional icon
       cta:
         label: Get Started
@@ -22,8 +20,6 @@ sections:
       # Add your Hero text here
       text: |-
         **Welcome to my website!**
-
-
         <!--Custom spacing-->
         <div class="mb-3"></div>
         <!--GitHub Button JS-->
@@ -33,9 +29,7 @@ sections:
       background:
         gradient_end: ''
         gradient_start: ''
-        text_color_light: false
----
-sections:
+        text_color_light: false     
   - block: about.avatar
     id: about
     content:
