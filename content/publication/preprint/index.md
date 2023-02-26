@@ -1,5 +1,4 @@
 ---
-title: Belief Shocks and Labor Market Dynamics
 abstract: >
   This paper studies the role of imperfect information in propagating labor
   market fluctuations, where agents are rational and form beliefs about the
@@ -15,9 +14,9 @@ abstract: >
   job-finding rate in the data compared to fundamental shocks. Noise shocks can
   explain a significant fraction of the volatility in unemployment and
   vacancies, consistent with the model’s implications. 
-tags: []
+draft: false
 slides: ""
-url_pdf: 
+url_pdf: null
 publication_types:
   - "3"
 authors:
@@ -29,10 +28,12 @@ publication_short: ""
 url_source: "#"
 url_video: "#"
 publication: ""
-featured: false
+featured: true
 date: 2019-04-07T00:00:00.000Z
 url_slides: ""
+title: Belief Shocks and Labor Market Dynamics
 subtitle: Job Market Paper
+tags: []
 links:
   - name: Custom Link
     url: http://example.org
