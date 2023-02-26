@@ -17,13 +17,10 @@ sections:
   - block: collection
     content:
       title: Research
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      text: 
       filters:
         folders:
-          - publication
+          - project
         exclude_featured: true
     design:
       columns: '2'
