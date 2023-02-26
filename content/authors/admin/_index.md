@@ -14,7 +14,7 @@ last_name: Mitra
 superuser: true
 
 # Role/position/tagline
-role: 
+role: Ph.D. Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,9 +68,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
- # - icon: cv
- #   icon_pack: ai
- #   link: uploads/Mitra_Anushka_CV.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/Mitra_Anushka_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'anushka@utexas.edu'
@@ -83,7 +83,7 @@ highlight_name: true
 
 <p style="font-family:rose;text-align: justify;">My research interest is in Macroeconomics, with a specific focus on Labor Markets. My Job Market Paper studies the role of belief shocks in explaining labor market dynamics.</p>
 
-<p style="font-family:rose;text-align: justify;">For more information, please see my {{% staticref "uploads/Mitra_Anushka_CV.pdf" "newtab" %}}CV{{% /staticref %}} or contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a></p>
+<p style="font-family:rose;text-align: justify;">For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu.</a></p>
   
 
 
