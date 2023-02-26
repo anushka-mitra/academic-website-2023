@@ -15,7 +15,7 @@ abstract: >
   effort. Presence of heterogeneous beliefs dampens the effect of such a policy
   on the unemployment rate by about 0.7 pp as compared to the model with
   homogeneous and unbiased beliefs. </p>
-draft: true
+draft: false
 slides: ""
 url_pdf: ""
 publication_types:
