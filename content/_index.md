@@ -20,14 +20,13 @@ sections:
       text: 
       filters:
         folders:
-          - publication
-      
+          - publication    
     design:
       columns: '2'
       view: compact
       
       
-  - block: collection
+#  - block: collection
     content:
       title: Teaching
       filters:
