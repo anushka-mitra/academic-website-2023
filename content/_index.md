@@ -29,10 +29,10 @@ sections:
       
   - block: collection
     content:
-      title: Talks
+      title: Teaching
       filters:
         folders:
-          - admin
+          - posts
     design:
       columns: '2'
       view: compact
