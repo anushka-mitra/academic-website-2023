@@ -102,7 +102,7 @@ sections:
           url: ''
     design:
       columns: '2'
-  - block: collection
+#  - block: collection
     id: posts
     content:
       title: Recent Posts
@@ -129,7 +129,7 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: portfolio
+ # - block: portfolio
     id: projects
     content:
       title: Projects
@@ -156,7 +156,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: collection
+#  - block: collection
     id: featured
     content:
       title: Featured Publications
@@ -169,7 +169,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: Research
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
