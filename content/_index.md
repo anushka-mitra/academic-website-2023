@@ -20,12 +20,12 @@ sections:
       text: 
       filters:
         folders:
-          - project   
+          - projects   
     design:
       columns: '2'
       view: compact
       
-#  - block: collection
+  - block: collection
     content:
       title: Teaching
       filters:
