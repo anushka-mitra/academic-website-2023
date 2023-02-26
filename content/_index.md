@@ -20,7 +20,7 @@ sections:
       text: 
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: true
     design:
       columns: '2'
