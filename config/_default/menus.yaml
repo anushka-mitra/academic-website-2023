@@ -11,11 +11,11 @@ main:
     url: '#posts'
     weight: 20
   - name: CV
-   url: uploads/resume.pdf
+   url: uploads/Mitra_Anushka_CV.pdf
     weight: 30
   - name: Teaching
     url: '#projects'
-    weight: 30
+    weight: 40
  # - name: Talks
  #  url: '#talks'
  #  weight: 40
