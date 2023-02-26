@@ -80,5 +80,6 @@ email: 'anushka@utexas.edu'
 highlight_name: true
 ---
 
-<font = rose>Welcome! I am a 5th year PhD Candidate at the Department of Economics at the University of Texas at Austin. My primary research interests are in Macroeonomics and Labor Markets. <\font>
+Welcome! I am a 5th year PhD Candidate at the Department of Economics at the University of Texas at Austin. My primary research interests are in Macroeonomics and Labor Markets.
 {style="text-align: justify;"}
+{style="font-family:rose;"}
