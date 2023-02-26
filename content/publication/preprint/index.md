@@ -29,7 +29,7 @@ publication_short: ""
 url_source: "#"
 url_video: "#"
 publication: ""
-featured: true
+featured: false
 date: 2019-04-07T00:00:00.000Z
 url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
@@ -48,9 +48,4 @@ url_poster: "#"
 url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
 ---
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
