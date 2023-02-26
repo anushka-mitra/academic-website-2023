@@ -5,10 +5,10 @@ name = "Quattrocento"
 google_fonts = "family=Quattrocento"
 
 # Font families
-#heading_font = "Lato"
-#body_font = "Merriweather"
-#nav_font = "Lato"
-#mono_font = "Roboto Mono"
+heading_font = "Quattrocento"
+body_font = "Quattrocento"
+nav_font = "Quattrocento"
+mono_font = "Quattrocento"
 
 # Font size
 #font_size = "20"
