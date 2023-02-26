@@ -47,15 +47,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
- # - icon: envelope
+  - icon: envelope
     icon_pack: fas
     link: 'mailto:anushka@utexas.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/onushka_mitro
-    label: Follow me on Twitter
+    label: 
     display:
-      header: true
+      header: false
 # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
  #   icon_pack: fas
   #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
