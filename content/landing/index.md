@@ -41,7 +41,7 @@ sections:
     design:
       # Choose an optional background color, gradient, image, or video
       background:
-        gradient_end: ''
-        gradient_start: ''
+     #   gradient_end: ''
+     #   gradient_start: ''
        
 ---
