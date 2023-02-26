@@ -8,10 +8,10 @@ main:
   #  url: '#about'
    # weight: 10
   - name: Research
-    url: '#posts'
+    url: '#projects'
     weight: 10
   - name: Teaching
-    url: '#projects'
+    url: '#posts'
     weight: 20
   - name: CV
     url: uploads/Mitra_Anushka_CV.pdf
