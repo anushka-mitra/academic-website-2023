@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.avatar
+  - block: v1/about
     id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -28,10 +28,20 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: about
+  - block: markdown
     content:
-      title: avatar.jpg
+      title: 
+  
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+---
+
+ # - block: collection
+    content:
+      title: Talks
       filters:
         folders:
           - admin
