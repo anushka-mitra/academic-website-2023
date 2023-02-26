@@ -30,7 +30,7 @@ email: anushka@utexas.edu
 <p style="font-family:rose;text-align: justify;">My research interest is in Macroeconomics, with a specific focus on Labor Markets. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu.</p>
 
 <b style="font-family:rose;text-align: justify;">**Job Market Paper**</b>
-- [Belief Shocks and Labor Market Dynamics]({{< relref "/publication/belief-shocks-and-labor-market-dynamics" >}})
+- <p relref "/publication/belief-shocks-and-labor-market-dynamics" >Belief Shocks and Labor Market Dynamics</p>
 
   
 
