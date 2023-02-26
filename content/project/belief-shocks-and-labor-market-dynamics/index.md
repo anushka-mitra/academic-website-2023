@@ -1,6 +1,6 @@
 ---
 draft: true
-slides: example
+slides: 
 url_pdf: ""
 summary: ""
 authors:
