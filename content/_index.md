@@ -20,7 +20,7 @@ sections:
       text: 
       filters:
         folders:
-          - publication    
+          - projects    
     design:
       columns: '2'
       view: compact
