@@ -20,11 +20,22 @@ sections:
       text: 
       filters:
         folders:
-          - project
+          - publications
         exclude_featured: true
     design:
       columns: '2'
       view: citation
+      
+      
+  - block: collection
+    content:
+      title: Talks
+      filters:
+        folders:
+          - admin
+    design:
+      columns: '2'
+      view: compact
       
 #  - block: markdown
     content:
@@ -35,16 +46,5 @@ sections:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
----
-
- # - block: collection
-    content:
-      title: Talks
-      filters:
-        folders:
-          - admin
-    design:
-      columns: '2'
-      view: compact
 
 ---
