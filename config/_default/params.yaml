@@ -8,7 +8,8 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
-  font: minimal
+  #font: minimal
+  google_fonts = "family=Quattrocento"
   font_size: L
 
 # SEO
