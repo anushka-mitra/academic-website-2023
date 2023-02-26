@@ -12,7 +12,7 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: features
+  # - block: features
     content:
       title: Skills
       items:
@@ -28,7 +28,7 @@ sections:
           description: 10%
           icon: camera-retro
           icon_pack: fas
-  - block: experience
+ # - block: experience
     content:
       title: Experience
       # Date format for experience
@@ -63,7 +63,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: accomplishments
+#  - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
