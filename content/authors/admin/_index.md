@@ -14,8 +14,7 @@ last_name: Mitra
 superuser: true
 
 # Role/position/tagline
-role: 5th year PhD Candidate,
-      Department of Economics
+role: 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -48,7 +47,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
+ # - icon: envelope
     icon_pack: fas
     link: 'mailto:anushka@utexas.edu'
   - icon: twitter
@@ -63,7 +62,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/anushka-mitra
-  - icon: linkedin
+#  - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
@@ -71,7 +70,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Mitra_Anushka_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'anushka@utexas.edu'
@@ -80,10 +79,8 @@ email: 'anushka@utexas.edu'
 highlight_name: true
 ---
 
-<p style="font-family:rose;text-align: justify;">Welcome to my webpage!</p>
+<p style="font-family:rose;text-align: justify;">Welcome to my webpage! I am a 5th year PhD candidate at the Department of Economics, The University of Texas at Austin. </p>
   
-<p style="font-family:rose;text-align: justify;">I am a 5th year PhD Candidate in Economics at the University of Texas at Austin. </p>
-  
-<p style="font-family:rose;text-align: justify;">My primary research interests are in Macroeonomics and Labor Markets.</p>
+<p style="font-family:rose;text-align: justify;"><b>Research Interests:</b> Macroeonomics, Labor Markets.</p>
 
 
