@@ -16,7 +16,7 @@ sections:
       columns: '2'
   - block: collection
     content:
-      title: Research
+      title: Working Papers
       text: 
       filters:
         folders:
