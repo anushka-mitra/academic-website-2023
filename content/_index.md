@@ -12,6 +12,7 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+      columns: '2'
   - block: collection
     content:
       title: Research
