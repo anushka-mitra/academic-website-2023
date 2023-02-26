@@ -30,7 +30,7 @@ sections:
       title: Teaching
       filters:
         folders:
-          - posts
+          - publication
     design:
       columns: '2'
       view: compact
