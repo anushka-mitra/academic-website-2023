@@ -27,7 +27,7 @@ publication_short: ""
 url_source: "#"
 url_video: "#"
 publication: ""
-featured: true
+featured: false
 date: 2019-04-07T00:00:00.000Z
 url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
