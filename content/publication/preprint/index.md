@@ -29,7 +29,7 @@ publication_short: ""
 url_source: "#"
 url_video: "#"
 publication: ""
-featured: false
+featured: true
 date: 2023-02-26T23:22:49.868Z
 url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
