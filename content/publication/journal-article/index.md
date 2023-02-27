@@ -26,7 +26,7 @@ publication_short: ""
 url_source: ""
 url_video: ""
 publication: ""
-featured: false
+featured: true
 date: 2015-09-01T00:00:00.000Z
 url_slides: ""
 title: What Determines Household Expectations
