@@ -1,12 +1,11 @@
 ---
-draft: true
-slides: 
+draft: false
+slides: null
 url_pdf: ""
+date: 2023-02-26T22:22:00.803Z
 summary: ""
 authors:
   - admin
-# url_video: ""
-date: 2023-02-26T22:22:00.803Z
 external_link: ""
 url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
