@@ -28,6 +28,3 @@ image:
 publishDate: 2017-01-01T00:00:00.000Z
 doi: ""
 ---
-
-
-# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
