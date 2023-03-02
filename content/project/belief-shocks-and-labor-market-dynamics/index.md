@@ -5,7 +5,7 @@ url_pdf: ""
 summary: ""
 authors:
   - admin
-url_video: ""
+# url_video: ""
 date: 2023-02-26T22:22:00.803Z
 external_link: ""
 url_slides: ""
