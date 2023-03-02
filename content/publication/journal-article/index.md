@@ -14,15 +14,17 @@ abstract: >
   about unemployment rises sharply during a recession, consistent with the
   response of expectations.</p>
 slides: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 publication_types:
   - "3"
-authors: []
+authors: 
+    - admin
+    - Aditi Singh
 summary: ""
-url_dataset: ""
-url_project: ""
-author_notes: []
-publication_short: ""
+# url_dataset: ""
+# url_project: ""
+# author_notes: []
+# publication_short: ""
 url_source: ""
 url_video: ""
 publication: ""
@@ -38,13 +40,13 @@ image:
   preview_only: false
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-url_code: https://github.com/wowchemy/wowchemy-hugo-themes
+# url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
 ---
 
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+# {{% callout note %}}
+# Create your slides in Markdown - click the *Slides* button to check out the example.
+# {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
