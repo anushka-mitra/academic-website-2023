@@ -11,7 +11,7 @@ main:
     url: project
     weight: 20
   - name: Teaching
-    url: '#publication'
+    url: 'post'
     weight: 30
   - name: CV
     url: uploads/Mitra_Anushka_CV.pdf
