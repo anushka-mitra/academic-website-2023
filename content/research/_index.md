@@ -1,16 +1,17 @@
 ---
-title: Research
-cms_exclude: false
+type: landing
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 3
+sections:
+  - block: collection
+    content:
+      title: Working Papers
+      text: 
+      filters:
+        folders:
+          - publication  
+    design:
+      columns: '2'
+      view: cards     
 
-# Optional header image (relative to `static/media/` folder).
-# header:
-#  caption: ''
-#  image: ''
 ---
+
