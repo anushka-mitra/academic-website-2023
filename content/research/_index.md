@@ -11,7 +11,7 @@ sections:
           - research  
     design:
       columns: '2'
-      view: card     
+      view: 3     
 
 ---
 
