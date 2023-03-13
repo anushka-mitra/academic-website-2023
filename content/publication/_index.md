@@ -1,6 +1,6 @@
 ---
 title: Research
-cms_exclude: false
+cms_exclude: true
 
 # View.
 #   1 = List
@@ -10,7 +10,7 @@ cms_exclude: false
 view: 3
 
 # Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
+# header:
+#  caption: ''
+#  image: ''
 ---
