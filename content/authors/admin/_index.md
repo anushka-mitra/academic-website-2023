@@ -27,10 +27,21 @@ email: anushka@utexas.edu
 
 <p style="font-family:rose;text-align: justify;">Welcome to my webpage! I am a 5th year PhD candidate at the Department of Economics, The University of Texas at Austin.</p>
 
-<p style="font-family:rose;text-align: justify;">My research interest is in Macroeconomics, with a specific focus on Labor Markets. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu.</a></p>
+<p style="font-family:rose;text-align: justify;">My research interest is in Macroeconomics, with a focus on Labor Markets. Specifically, I am interested in studying how the macroeocnomic sentimemts of labor market participants affect individual as well as aggregate labor market outcomes. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu.</a></p>
 
-<b style="font-family:rose;text-align: justify;">**Job Market Paper**</b>
-- [Belief Shocks and Labor Market Dynamics]({{< relref "/publication/jmp">}})
+  - block: collection
+     content:
+     title: Working Papers
+     text: 
+     filters:
+     folders:
+       - publication  
+      design:
+        columns: '2'
+         view: compact
+
+ <b style="font-family:rose;text-align: justify;">**Job Market Paper**</b>
+ - [Belief Shocks and Labor Market Dynamics]({{< relref "/publication/jmp">}})
 
   
 
