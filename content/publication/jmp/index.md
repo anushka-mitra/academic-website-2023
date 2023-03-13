@@ -22,23 +22,23 @@ publication_types:
   - "3"
 authors:
   - admin
-summary: ""
+#summary: ""
 # url_dataset: "#"
-url_project: ""
+#url_project: ""
 # publication_short: ""
 # url_source: "#"
 # url_video: "#"
-publication: ""
+# publication: ""
 featured: true
 date: 2023-02-26T23:22:49.868Z
-url_slides: ""
+# url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
-subtitle: Job Market Paper
-tags: []
+# subtitle: Job Market Paper
+# tags: []
 # links:
 #  - name: Custom Link
 #    url: http://example.org
-projects: []
+# projects: []
 image:
   caption: ""
   focal_point: ""
