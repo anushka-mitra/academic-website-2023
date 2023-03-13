@@ -11,7 +11,7 @@ sections:
           - publication  
     design:
       columns: '2'
-      view: cards     
+      view: card     
 
 ---
 
