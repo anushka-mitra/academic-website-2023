@@ -8,7 +8,7 @@ sections:
       text: 
       filters:
         folders:
-          - research  
+          - project  
     design:
       columns: '2'
       view: card    
