@@ -7,7 +7,7 @@ sections:
       text: 
       filters:
         folders:
-          - research  
+          - publication  
     design:
       columns: '2'
       view: 1    
