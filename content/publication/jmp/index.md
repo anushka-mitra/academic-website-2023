@@ -27,7 +27,7 @@ featured: false
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 date: 2023-02-26T23:22:49.868Z
 publishDate: 2017-01-01T00:00:00.000Z
 doi: ""
