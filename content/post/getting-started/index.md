@@ -1,12 +1,16 @@
 ---
-summary: ""
+summary: '<p style="font-family:rose;text-align: justify;">This paper studies
+  the role of imperfect information in propagating labor market fluctuations,
+  where agents are rational and form beliefs about the fundamentals of the
+  economy by observing noisy signals about the aggregate state in a stylized
+  search and matching framework.</p>'
 draft: false
 authors:
   - admin
-lastmod: 2020-12-13T00:00:00Z
+lastmod: 2020-12-13T00:00:00.000Z
 title: Belief Shocks and Labor Market Dynamics
 subtitle: Job Market Paper
-date: 2020-12-13T00:00:00Z
+date: 2020-12-13T00:00:00.000Z
 featured: false
 tags: []
 categories: []
