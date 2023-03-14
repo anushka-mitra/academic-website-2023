@@ -1,6 +1,5 @@
 ---
 type: landing
-
 sections:
   - block: collection
     content:
@@ -8,7 +7,7 @@ sections:
       text: 
       filters:
         folders:
-          - publication  
+          - research  
     design:
       columns: '2'
       view: card    
