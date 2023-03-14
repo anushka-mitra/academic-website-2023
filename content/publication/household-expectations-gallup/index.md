@@ -17,21 +17,17 @@ slides: ""
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 publication_types:
   - "3"
-authors: 
-    - admin
-    - Aditi Singh
+authors:
+  - admin
+  - Aditi Singh
 summary: ""
-# url_dataset: ""
-# url_project: ""
-# author_notes: []
-# publication_short: ""
 url_source: ""
 url_video: ""
 publication: ""
 featured: true
 date: 2021-07-01T00:00:00.000Z
 url_slides: ""
-title: What Determines Household Expectations
+title: What Determines Household Expectations?
 tags: []
 projects: []
 image:
@@ -40,6 +36,5 @@ image:
   preview_only: false
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
-# url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
 ---
