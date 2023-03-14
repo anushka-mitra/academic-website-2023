@@ -29,19 +29,7 @@ email: anushka@utexas.edu
 
 <p style="font-family:rose;text-align: justify;">My research interest is in Macroeconomics, with a focus on Labor Markets. Specifically, I am interested in studying how the macroeocnomic sentimemts of labor market participants affect individual as well as aggregate labor market outcomes. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu.</a></p>
 
-  - block: collection
-     content:
-     title: Working Papers
-     text: 
-     filters:
-     folders:
-       - publication  
-      design:
-        columns: '2'
-         view: compact
 
- <b style="font-family:rose;text-align: justify;">**Job Market Paper**</b>
- - [Belief Shocks and Labor Market Dynamics]({{< relref "/publication/jmp">}})
 
   
 
