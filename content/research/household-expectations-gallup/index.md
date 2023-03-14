@@ -18,8 +18,8 @@ url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 publication_types:
   - "3"
 authors: 
+    - <a href = "https://www.aditi-singh.com/home">Aditi Singh</a>
     - admin
-    - Aditi Singh
 summary: ""
 # url_dataset: ""
 # url_project: ""
