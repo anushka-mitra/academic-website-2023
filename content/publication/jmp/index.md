@@ -18,33 +18,17 @@ abstract: >
 draft: false
 slides: ""
 url_pdf: null
+title: Belief Shocks and Labor Market Dynamics
 publication_types:
   - "3"
 authors:
   - admin
-#summary: ""
-# url_dataset: "#"
-#url_project: ""
-# publication_short: ""
-# url_source: "#"
-# url_video: "#"
-# publication: ""
-featured: true
-date: 2023-02-26T23:22:49.868Z
-# url_slides: ""
-title: Belief Shocks and Labor Market Dynamics
-# subtitle: Job Market Paper
-# tags: []
-# links:
-#  - name: Custom Link
-#    url: http://example.org
-# projects: []
+featured: false
 image:
   caption: ""
   focal_point: ""
   preview_only: false
+date: 2023-02-26T23:22:49.868Z
 publishDate: 2017-01-01T00:00:00.000Z
-# url_poster: "#"
-# url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
 ---
