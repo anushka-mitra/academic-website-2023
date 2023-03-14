@@ -10,7 +10,7 @@ sections:
           - publication  
     design:
       columns: '2'
-      view: 1    
+      view: showcase    
 
 ---
 
