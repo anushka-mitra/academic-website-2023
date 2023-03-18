@@ -1,6 +1,7 @@
 ---
 title: Working Papers
 cms_exclude: true
+filter_exclude: true
 
 # View.
 #   1 = List
