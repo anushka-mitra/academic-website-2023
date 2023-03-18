@@ -4,7 +4,7 @@ title: "Publications"
 
 ## Journal Articles
 
-[My Paper Title](jmp/index.md)
+- [JMP](jmp/index.md)
 
 - Doe, J., & Smith, J. (2021). Example article. *Journal of Example Research*, 10(1), 1-10.
 
