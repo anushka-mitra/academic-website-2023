@@ -1,6 +1,6 @@
 ---
 title: Working Papers
-cms_exclude: true
+cms_exclude: false
 filter_exclude: true
 
 # View.
