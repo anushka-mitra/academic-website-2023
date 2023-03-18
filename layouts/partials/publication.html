@@ -1,0 +1,65 @@
+{{- define "publication.html" -}}
+  <article class="publication">
+    <h2 class="publication-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    {{- with .Params.author }}
+      {{- if gt (len .) 1 }}
+        <div class="publication-authors">
+          {{- range $index, $author := . -}}
+            {{- if $index -}}, {{- end -}}
+            {{- with $.Site.Params.authors -}}
+              {{- with index . $author -}}
+                {{- with .link -}}
+                  <a href="{{ . }}">{{ $author }}</a>
+                {{- else -}}
+                  {{ $author }}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        </div>
+      {{- else -}}
+        {{- with $.Site.Params.authors -}}
+          {{- with index . (index .Params.author 0) -}}
+            {{- with .link -}}
+              <div class="publication-author">
+                <a href="{{ . }}">{{ index .Params.author 0 }}</a>
+              </div>
+            {{- else -}}
+              <div class="publication-author">{{ index .Params.author 0 }}</div>
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="publication-date">{{ .Date.Format "January 2006" }}</div>
+    {{- with .Params.publication_types -}}
+      {{- range $index, $publication_type := . -}}
+        {{- with $.Site.Data.publication_types -}}
+          {{- with index . $publication_type -}}
+            {{- if .icon -}}
+              <i class="{{ .icon }}"></i>
+            {{- end -}}
+            <div class="publication-type">{{ .singular }}</div>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="publication-abstract">{{ .Abstract }}</div>
+    <div class="publication-links">
+      {{- if .Params.doi -}}
+        <a href="https://doi.org/{{ .Params.doi }}">DOI</a>
+      {{- end -}}
+      {{- if .Params.slides -}}
+        <a href="{{ .Params.slides }}">Slides</a>
+      {{- end -}}
+      {{- if .Params.code -}}
+        <a href="{{ .Params.code }}">Code</a>
+      {{- end -}}
+      {{- if .Params.url -}}
+        <a href="{{ .Params.url }}">URL</a>
+      {{- end -}}
+    </div>
+  </article>
+{{- end -}}
