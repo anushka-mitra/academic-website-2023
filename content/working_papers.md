@@ -10,7 +10,7 @@ share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
 view: card
-slides:
+slides: #research
   design:
         columns: '2'
         view: card 
