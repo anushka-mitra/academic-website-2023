@@ -4,7 +4,7 @@ date: 2021-02-26T23:01:30.874Z
 draft: false
 featured: false
 authors:
-  - aditi-singh
+  - Aditi Singh
   - admin
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773 
 image:
