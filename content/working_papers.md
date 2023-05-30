@@ -4,6 +4,7 @@ date = "2023-05-29"
 layout = "research"
 show_resources = true
 margin = ["0", "10px", "0", "10px"]
+view = "card"
 +++
 
 ## Belief Shocks and Labor Market Dynamics
