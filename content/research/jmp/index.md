@@ -30,7 +30,7 @@ authors:
 # url_video: "#"
 # publication: ""
 featured: true
-date: 2023-02-26T23:22:49.868Z
+# date: 2023-05-30T23:22:49.868Z
 # url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
 # subtitle: Job Market Paper
