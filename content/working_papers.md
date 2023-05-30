@@ -4,7 +4,6 @@ sections:
   - block: collection
     content:
       title: Working Papers
-      text:  
     design:
       columns: '2'
       view: card    
@@ -12,11 +11,7 @@ sections:
 ---
 
 ## Belief Shocks and Labor Market Dynamics
-*Abstract*
 
-
-*Download*
-[PDF](/papers/paper1.pdf)
 
 ## Macroeconomic Sentiments and the Job Search Behavior
 
