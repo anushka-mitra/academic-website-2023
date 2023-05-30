@@ -1,5 +1,6 @@
 ---
 title: Working Papers
+type: landing
 date: "2018-06-28T00:00:00Z"
 
 reading_time: false  # Show estimated reading time?
@@ -7,11 +8,24 @@ share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
 
-type: "landing"
-design:
-  columns: '2'
-  view: card 
+sections:
+  - block: markdown
+    id: section-1
+    content:
+      title: Section 1
+      subtitle: A subtitle
+      design:
+        columns: '2'
+        view: card 
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+  - block: markdown
+    id: section-2
+    content:
+      title: Section 2
+      subtitle: A subtitle
+      text: Add your Section 2 content here...
 ---
+
 
 Add your *content* here...
 
@@ -45,5 +59,6 @@ Add your *content* here...
   media plays a role in influencing household expectations, and find that news
   about unemployment rises sharply during a recession, consistent with the
   response of expectations.</p>
+  
 
 
