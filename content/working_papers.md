@@ -1,6 +1,6 @@
 +++
 title = "Working Papers"
-date = "2023-04-22"
+date = "2023-05-29"
 layout = "research"
 show_resources = true
 +++
@@ -14,14 +14,16 @@ show_resources = true
 
 ## Macroeconomic Sentiments and the Job Search Behavior
 
-<p style="font-family:rose;text-align: justify;">Households' expectations about future economic conditions can play an important role in their job search behavior. Using survey data this paper finds that workers’ expectations for the economy have a significant impact on their job search effort. Pessimistic workers who expect the labor market to do worse in the future significantly increase their current search intensity, while optimistic workers report a decrease. The paper evaluates the effect of an expansionary corporate tax cut policy by introducing workers with heterogeneous beliefs to a stylized search model with endogenous search effort. The presence of heterogeneous beliefs dampens the effect of such a policy on the unemployment rate. Using the 2016 US Presidential election as an exogenous shock to macroeconomic sentiments, I find that Republican states became optimistic immediately after the elections
-  and reported a decline in search hours by 3.75 hours/week relative to the Democrat states that became pessimistic about the economy. The paper evaluates the effect of an expansionary corporate tax cut policy by introducing workers with heterogeneous beliefs in a stylized search model with endogenous search effort. Presence of heterogeneous beliefs dampens the effect of such a polic on the unemployment rate by about 0.7 pp as compared to the model with homogeneous and unbiased beliefs. </p>
-
-*Download*
 [PDF](content/publication/macroeconomic-sentiments-job-search/macroeconomic-sentiments-job-search.pdf)
+
+<p style="font-family:rose;text-align: justify;">Households' expectations about future economic conditions can play an important role in their job search behavior. Using survey data this paper finds that workers’ expectations for the economy have a significant impact on their job search effort. Pessimistic workers who expect the labor market to do worse in the future significantly increase their current search intensity, while optimistic workers report a decrease. The paper evaluates the effect of an expansionary corporate tax cut policy by introducing workers with heterogeneous beliefs to a stylized search model with endogenous search effort. The presence of heterogeneous beliefs dampens the effect of such a policy on the unemployment rate. Using the 2016 US Presidential election as an exogenous shock to macroeconomic sentiments, I find that Republican states became optimistic immediately after the elections and reported a decline in search hours by 3.75 hours/week relative to the Democrat states that became pessimistic about the economy. The paper evaluates the effect of an expansionary corporate tax cut policy by introducing workers with heterogeneous beliefs in a stylized search model with endogenous search effort. Presence of heterogeneous beliefs dampens the effect of such a polic on the unemployment rate by about 0.7 pp as compared to the model with homogeneous and unbiased beliefs. </p>
+
+
 
 
 ## What Determines Household Expectations? with <a href="https://www.aditi-singh.com/home"><i>Aditi Singh</i></a>
+[PDF]( https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773)
+
 
   <p style="font-family:rose;text-align: justify;">This paper uses daily data on
   household expectations to examine what causes households to adjust their
@@ -37,6 +39,4 @@ show_resources = true
   about unemployment rises sharply during a recession, consistent with the
   response of expectations.</p>
 
-*Download*
-[PDF]( https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773)
 
