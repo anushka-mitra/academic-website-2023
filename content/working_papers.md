@@ -3,8 +3,10 @@ title = "Working Papers"
 date = "2023-05-29"
 layout = "research"
 show_resources = true
-margin-top: 100px
-margin-bottom: 100px
+design:
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["0", "100px", "0", "100px"]
 +++
 
 ## Belief Shocks and Labor Market Dynamics
