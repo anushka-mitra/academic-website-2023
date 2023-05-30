@@ -30,10 +30,10 @@ authors:
 # url_video: "#"
 # publication: ""
 featured: true
-# date: 2023-05-30T23:22:49.868Z
+date: 2023-05-30T23:22:49.868Z
 # url_slides: ""
 title: Belief Shocks and Labor Market Dynamics
-# subtitle: Job Market Paper
+subtitle: Job Market Paper
 # tags: []
 # links:
 #  - name: Custom Link
@@ -43,7 +43,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-publishDate: 2017-01-01T00:00:00.000Z
+# publishDate: 2017-01-01T00:00:00.000Z
 # url_poster: "#"
 # url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
