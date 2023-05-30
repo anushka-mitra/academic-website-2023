@@ -73,3 +73,10 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+  
+ content:
+ margin:
+    top: 100px
+    right: 100px
+    bottom: 100px
+    left: 100px
