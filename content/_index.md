@@ -14,10 +14,7 @@ sections:
       text:
       design:
       columns: '2'
-  design:
-    spacing:
-    # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["0", "100px", "0", "100px"]
+
       
 #  - block: collection
 #    content:
