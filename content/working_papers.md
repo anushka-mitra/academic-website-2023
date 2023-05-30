@@ -7,7 +7,7 @@ share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
 
-type: "widget_page"
+type: "landing"
 design:
   columns: '2'
   view: card 
