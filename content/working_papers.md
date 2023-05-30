@@ -8,8 +8,8 @@ sections:
       title: Working Papers
       subtitle: A subtitle
       design:
-      columns: '2'
-      view: card    
+        columns: '2'
+        view: card    
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
   - block: markdown
     id: section-2
@@ -17,8 +17,8 @@ sections:
       title: Section 2
       subtitle: A subtitle
       design:
-      columns: '2'
-      view: card    
+        columns: '2'
+        view: card    
       text: ## Macroeconomic Sentiments and the Job Search Behavior
 
 [PDF](content/publication/macroeconomic-sentiments-job-search/macroeconomic-sentiments-job-search.pdf)
