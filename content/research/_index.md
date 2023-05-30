@@ -7,7 +7,7 @@ sections:
       text: 
       filters:
         folders:
-          - publication  
+          - research  
     design:
       columns: '2'
       view: card    
