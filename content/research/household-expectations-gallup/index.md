@@ -18,7 +18,7 @@ url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 publication_types:
   - "3"
 authors: 
-    - <a href="https://www.aditi-singh.com/home">Aditi Singh</a>
+    - aditi-singh
     - admin
 summary: ""
 # url_dataset: ""
@@ -29,7 +29,7 @@ url_source: ""
 url_video: ""
 publication: ""
 featured: true
-date: 2021-07-01T00:00:00.000Z
+# date: 2021-07-01T00:00:00.000Z
 url_slides: ""
 title: What Determines Household Expectations
 tags: []
@@ -38,7 +38,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-publishDate: 2017-01-01T00:00:00.000Z
+# publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 # url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
