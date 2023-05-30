@@ -2,7 +2,7 @@
 ---
 type: landing
 sections:
-  - block: collection
+  - block: markdown
     id: section-1
     content:
       title: Working Papers
