@@ -1,11 +1,9 @@
 +++
-title = "Research"
+title = "Working Papers"
 date = "2023-04-22"
 layout = "research"
 show_resources = true
 +++
-
-# Working Papers
 
 ## Belief Shocks and Labor Market Dynamics
 *Abstract*
@@ -23,13 +21,8 @@ show_resources = true
 [PDF](content/publication/macroeconomic-sentiments-job-search/macroeconomic-sentiments-job-search.pdf)
 
 
-## What Determines Household Expectations?
+## What Determines Household Expectations? with <a href="https://www.aditi-singh.com/home"><i>Aditi Singh</i></a>
 
-*Authors*
-- Anushka Mitra
-- Aditi Singh
-
-*Abstract*
   <p style="font-family:rose;text-align: justify;">This paper uses daily data on
   household expectations to examine what causes households to adjust their
   expectations about the future of the economy. We analyze several macro
@@ -45,5 +38,5 @@ show_resources = true
   response of expectations.</p>
 
 *Download*
-[PDF](/papers/paper3.pdf)
+[PDF]( https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773)
 
