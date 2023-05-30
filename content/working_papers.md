@@ -3,7 +3,7 @@ title = "Working Papers"
 date = "2023-05-29"
 layout = "research"
 show_resources = true
-padding= ["20px", "0", "20px", "0"]
+padding= ["0", "100px", "0", "100px"]
 +++
 
 ## Belief Shocks and Labor Market Dynamics
