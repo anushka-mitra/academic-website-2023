@@ -1,5 +1,5 @@
 ---
-title: Slides
+title: Working Papers
 summary: An introduction to using Academic's Slides feature.
 authors: []
 tags: []
@@ -9,13 +9,8 @@ reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
-
+view: card
 slides:
-  # Choose a theme from https://github.com/hakimel/reveal.js#theming
-  theme: black
-  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
-  #   Light style: github. Dark style: dracula (default).
-  highlight_style: dracula
   design:
         columns: '2'
         view: card 
