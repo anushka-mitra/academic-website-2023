@@ -11,9 +11,7 @@ sections:
       text: 
       filters:
         folders:
-          - research/jmp
-          - research/macroeconomic-sentiments-job-search
-          - household-expectations-gallup  
+          - research
     design:
       columns: '2'
       view: showcase     
