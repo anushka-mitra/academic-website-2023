@@ -1,11 +1,15 @@
-+++
-title = "Working Papers"
-date = "2023-05-29"
-layout = "research"
-show_resources = true
-margin = ["0", "10px", "0", "10px"]
-view = "card"
-+++
+---
+type: landing
+sections:
+  - block: collection
+    content:
+      title: Working Papers
+      text:  
+    design:
+      columns: '2'
+      view: card    
+
+---
 
 ## Belief Shocks and Labor Market Dynamics
 *Abstract*
