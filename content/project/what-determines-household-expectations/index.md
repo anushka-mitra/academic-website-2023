@@ -1,11 +1,12 @@
 ---
-title: "What Determines Household Expectations? "
+title: "What Determines Household Expectations?"
 date: 2021-02-26T23:01:30.874Z
 draft: false
 featured: false
 authors:
-  - Anushka Mitra
-  - Aditi Singh
+  - aditi-singh
+  - admin
+url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773 
 image:
   filename: ""
   focal_point: null
