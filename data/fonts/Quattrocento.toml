@@ -2,7 +2,7 @@
 name = "Quattrocento"
 
 # Optional Google font URL
-google_fonts = "family=Quattrocento"
+google_fonts = ""
 
 # Font families
 heading_font = "Quattrocento"
