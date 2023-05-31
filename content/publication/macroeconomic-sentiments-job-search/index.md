@@ -8,7 +8,7 @@ url_pdf: ""
 # publication_types:
 #  - "3"
 authors:
-  - <a href="#about">Anushka Mitra</a>
+  - <a relref="#about">Anushka Mitra</a>
 summary: ""
 url_dataset: ""
 url_project: ""
