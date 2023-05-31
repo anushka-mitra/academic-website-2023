@@ -8,7 +8,7 @@ title: Belief Shocks and Labor Market Dynamics
 # publication_types:
 #  - "3"
 authors:
-  -  <a relref "#about">Anushka Mitra</a>
+  -  <a relref = "about">Anushka Mitra</a>
 featured: false
 image:
   caption: ""
