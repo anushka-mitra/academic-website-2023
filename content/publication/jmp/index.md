@@ -5,8 +5,8 @@ draft: false
 slides: ""
 url_pdf: null
 title: Belief Shocks and Labor Market Dynamics
-publication_types:
-  - "3"
+# publication_types:
+#  - "3"
 authors:
   - admin
 featured: false
