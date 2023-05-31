@@ -19,7 +19,7 @@ url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
   # - "3"
 authors:
   -  <a href="https://www.aditi-singh.com/home">Aditi Singh</a>
-  - admin
+  - Anushka Mitra({{< relref "#about" >}})
 summary: ""
 # url_source: ""
 # url_video: ""
