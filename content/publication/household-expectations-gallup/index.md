@@ -15,16 +15,16 @@ abstract: >
   response of expectations.</p>
 slides: ""
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
-publication_types:
-  - "3"
+# publication_types:
+  # - "3"
 authors:
   - Aditi Singh
   - admin
 # This is the link to Aditi Singh's website.
 aditi_singh_link: https://aditisingh.com
 summary: ""
-url_source: ""
-url_video: ""
+# url_source: ""
+# url_video: ""
 publication: ""
 featured: false
 date: 2022-11-01T00:00:00.000Z
