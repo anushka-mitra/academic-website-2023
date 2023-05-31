@@ -5,8 +5,8 @@ abstract: >
 draft: false
 slides: ""
 url_pdf: ""
-publication_types:
-  - "3"
+# publication_types:
+#  - "3"
 authors:
   - admin
 summary: ""
