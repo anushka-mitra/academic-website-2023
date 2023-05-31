@@ -6,9 +6,9 @@ google_fonts = ""
 
 # Font families
 heading_font = "Quattrocento"
-body_font = "Quattrocento"
-nav_font = "Quattrocento"
-mono_font = "Quattrocento"
+body_font = "Overpass"
+nav_font = "Overpass"
+mono_font = "Overpass"
 
 # Font size
 #font_size = "20"
