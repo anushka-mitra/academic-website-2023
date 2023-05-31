@@ -5,7 +5,7 @@ last_name: Singh
 
 authors:
   - aditi-singh
-external_link: "https://www.aditi-singh.com/home"
+external_link: https://www.aditi-singh.com/home
 avatar_filename: null
 social:
   - display:
