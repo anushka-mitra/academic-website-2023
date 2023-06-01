@@ -6,9 +6,9 @@ google_fonts = ""
 
 # Font families
 heading_font = "Cormorant Garamond"
-body_font = "Overpass"
-nav_font = "Overpass"
-mono_font = "Overpass"
+body_font = "Cormorant Garamond"
+nav_font = "Cormorant Garamond"
+mono_font = "Cormorant Garamond"
 
 # Font size
 #font_size = "20"
