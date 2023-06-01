@@ -13,14 +13,14 @@ appearance:
 
 # SEO
 
-marketing:
-    google_analytics: 'G-GNN9NPGKRB'
+marketing
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
     description: ''
     twitter: ''
+    google_analytics: 'G-GNN9NPGKRB'
     baidu_tongji: ''
   verification:
     google: ''
