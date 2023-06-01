@@ -5,7 +5,7 @@ name = "Default"
 google_fonts = ""
 
 # Font families
-heading_font = "Quattrocento"
+heading_font = "Cormorant Garamond"
 body_font = "Overpass"
 nav_font = "Overpass"
 mono_font = "Overpass"
