@@ -26,7 +26,7 @@ email: anushka@utexas.edu
 
 ---
 
-<p style="font:Default;text-align: justify;">Welcome to my webpage! I am a 6th year PhD candidate at the Department of Economics, The University of Texas at Austin.</p>
+<p style="font-family:Quattrocento;text-align: justify;">Welcome to my webpage! I am a 6th year PhD candidate at the Department of Economics, The University of Texas at Austin.</p>
 
 <p style="text-align: justify;">My research interest is in Macroeconomics, with a focus on Labor Markets. Specifically, I am interested in studying how the macroeconomic sentiments of labor market participants affect individual as well as aggregate labor market outcomes. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a>.</p>
 
