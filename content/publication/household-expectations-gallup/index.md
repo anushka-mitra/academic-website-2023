@@ -1,6 +1,6 @@
 ---
 abstract: >
-  <p style="font-family:rose;text-align: justify;">This paper uses daily data on
+  <p style="font-family:Default;text-align: justify;">This paper uses daily data on
   household expectations to examine what causes households to adjust their
   expectations about the future of the economy. We analyze several macro
   variables of policy interest and find that households respond primarily to
