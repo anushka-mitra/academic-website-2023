@@ -21,7 +21,7 @@ last_name: Mitra
 first_name: Anushka
 role: Ph.D. Candidate in Economics
 highlight_name: true
-# title: Anushka Mitra
+title: Anushka Mitra
 email: anushka@utexas.edu
 
 ---
