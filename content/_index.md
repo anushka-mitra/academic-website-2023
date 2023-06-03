@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Anushka Mitra
+title: <p style="font-family:Cormorant Garamond">Anushka Mitra</p>
 date: 2022-10-24
 type: landing
 
