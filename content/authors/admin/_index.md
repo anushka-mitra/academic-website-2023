@@ -18,10 +18,10 @@ organizations:
     url: https://www.liberalarts.utexas.edu/economics/
 superuser: true
 last_name: Mitra
+first_name: Anushka
 role: Ph.D. Candidate in Economics
 highlight_name: true
-title: Anushka Mitra
-first_name: Anushka
+# title: Anushka Mitra
 email: anushka@utexas.edu
 
 ---
