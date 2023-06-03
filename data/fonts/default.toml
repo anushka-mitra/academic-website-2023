@@ -1,5 +1,5 @@
  #Font style metadata
-name = "Default"
+name = "default"
 
 # Optional Google font URL
 google_fonts = "family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700"
