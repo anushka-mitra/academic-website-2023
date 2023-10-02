@@ -19,7 +19,7 @@ featured: true
 date: 2023-05-30T23:22:49.868Z
 # url_slides: ""
 title: Imperfect Information and Labor Market Dynamics
-subtitle: Job Market Paper
+Description: Job Market Paper
 # tags: []
 # links:
 #  - name: Custom Link
