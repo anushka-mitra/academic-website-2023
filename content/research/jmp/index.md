@@ -1,20 +1,51 @@
 ---
 abstract: >
-  <p style="font-family:Cormorant Garamond;text-align: justify;">This paper studies whether imperfect information about the persistence of underlying aggregate productivity shocks can explain the business cycle dynamics of the labor market, particularly the persistence of the unemployment rate. Utilizing a novel structural VAR model, I identify noise shocks - expectational errors stemming from imperfect information— as a significant factor that drives labor market dynamics. Due to this imperfect information, firms and workers face challenges in promptly discerning the nature of an aggregate productivity shock, be it persistent, transitory, or mere noise. This ambiguity impacts wages, job vacancies, job-finding rates, and, consequentially, overall unemployment levels. By introducing imperfect information into a general equilibrium search and matching model, I underscore its role in amplifying the persistence of unemployment rate. Counterfactual analysis illustrates that, in the absence of noise shocks, labor market recovery from post-1990s recessions would be expedited by 7-10 quarters, thus suggesting that imperfect information is an important mechanism for resolving the slow recovery puzzle in the U.S labor market. </p>
+  <p style="font-family:rose;text-align: justify;">This paper assess role of imperfect information for fluctuations in the U.S. labor market, and especially for the persistence in the recoveries from recessions. Utilizing a novel structural VAR model, I identify noise shocks - expectational errors stemming from imperfect information— as a significant factor that drive labor market fluctuations. Due to imperfect information, firms and workers cannot immediately distinguish whether an aggregate productivity shock is persistent, transitory or noise which affects their behavior and hence aggregate outcomes. Counterfactual analyses documents that without noise shocks, the labor market would recover 4-8 quarters sooner from the post 90s recessions. Introduction of imperfect information in a search and matching model contributes 28\% more to the persistence of unemployment after recessions relative to the full information benchmark. It also generates 30\% higher volatility in the labor market, highlighting the importance of imperfect information in driving labor market dynamics.</p>
 draft: false
 slides: ""
 url_pdf: null
-title: Imperfect Information and Labor Market Dynamics
-# publication_types:
-#  - "3"
+publication_types:
+  - "3"
 authors:
-  -  <p style="font-family:Cormorant Garamond><a relref = "about">Anushka Mitra</a></p>
-featured: false
+  - admin
+#summary: ""
+# url_dataset: "#"
+#url_project: ""
+# publication_short: ""
+# url_source: "#"
+# url_video: "#"
+# publication: ""
+featured: true
+date: 2023-05-30T23:22:49.868Z
+# url_slides: ""
+title: Imperfect Information and Labor Market Dynamics
+Description: Job Market Paper
+# tags: []
+# links:
+#  - name: Custom Link
+#    url: http://example.org
+# projects: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
-date: 2023-09-24T23:22:49.868Z
+  preview_only: false
 publishDate: 2017-01-01T00:00:00.000Z
+# url_poster: "#"
+# url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 doi: ""
 ---
+  <p style="font-family:rose;text-align: justify;">This paper studies the role
+  of imperfect information in propagating labor market fluctuations, where
+  agents are rational and form beliefs about the fundamentals of the economy by
+  observing noisy signals about the aggregate state in a stylized search and
+  matching framework. Noise shocks to beliefs affects the hiring decision of the
+  firms as well as search intensity of workers which in turn affects bargained
+  wages causing further feedback effect via consumption demand on vacancy
+  creation of firms, thus, ultimately affecting the aggregate labor market
+  dynamics. Using the now cast errors of professional forecasters, I use a
+  sign-restricted VAR to identify noise shocks from the fundamental shocks in
+  the data. I show that these noise shocks have a significant and more
+  persistent effect on unemployment, vacancies and job-finding rate in the data
+  compared to fundamental shocks. Noise shocks can explain a significant
+  fraction of the volatility in unemployment and vacancies, consistent with the
+  model’s implications. </p>

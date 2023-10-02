@@ -1,21 +1,20 @@
 ---
-title: Working Papers
-cms_exclude: false
-filter_exclude: true
+type: widget_page
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 comments: false  # Show comments?
+sections:
+  - block: collection
+    content:
+      title: Working Papers
+      text: 
+      filters:
+        folders:
+          - research
+    design:
+      columns: '2'
+      view: card     
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 3
-
-# Optional header image (relative to `static/media/` folder).
-# header:
-#  caption: ''
-#  image: ''
 ---
+
