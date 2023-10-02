@@ -26,9 +26,9 @@ email: anushka@utexas.edu
 
 ---
 
-<p style="font-family:Cormorant Garamond;text-align: justify;">Welcome! I am a 6th year PhD candidate at the Department of Economics, The University of Texas at Austin.</p>
+<p style="font-family:Cormorant Garamond;text-align: justify;">Welcome! I am a 6th year PhD candidate at the Department of Economics, The University of Texas at Austin. I will be on the 2023-24 job market.</p>
 
-<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. My current research assess the role of information frictions in explaining labor market dynamics. I will be on the 2023-24 job market. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a>.</p>
+<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. My current research assess the role of information frictions in explaining labor market dynamics. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a>.</p>
 
 
 
