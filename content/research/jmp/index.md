@@ -4,8 +4,7 @@ abstract: >
 draft: false
 slides: ""
 url_pdf: null
-title: Imperfect Information and Labor Market Dynamics
-Description: Job Market Paper
+title: Imperfect Information and Labor Market Dynamics (Job Market Paper)
 # publication_types:
 #  - "3"
 authors:
