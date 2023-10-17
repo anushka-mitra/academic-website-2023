@@ -57,7 +57,7 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
-  defaultMarkdownHandler: 'blackFriday'
+  defaultMarkdownHandler: blackFriday
   markup.blackFriday:
     hrefTargetBlank: true
 related:
