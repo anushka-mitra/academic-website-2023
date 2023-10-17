@@ -13,9 +13,9 @@ main:
   - name: CV
     url: uploads/Mitra_Anushka_CV.pdf
     weight: 30
-   - name: Teaching
-   url: 'research'
-   weight: 40
+  - name: Teaching
+    url: 'research'
+    weight: 40
  # - name: "My Widget Page"  # Title of the link.
  #  url: "landing/index.md"  # Widget Page folder name (or just `/` for homepage).  
  #  weight: 40  # Position of the link in the navigation bar
