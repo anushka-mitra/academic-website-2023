@@ -18,6 +18,8 @@ show_title_as_headline: true
 
 - <p style="font-family:Cormorant Garamond;">Macroeconomic Theory: TA for Prof. Stefano Eusepi, Fall 2021</p>
 
-- <p style="font-family:Cormorant Garamond;">Comparative Economic Systems: TA for Prof. Dayanand Manoli, Fall 2019</p>
+- <p style="font-family:Cormorant Garamond;">Comparative Economic Systems: TA for Prof. Dayanand Manoli, Fall 2019 </p>
+
+- <p style="font-family:Cormorant Garamond;">Comparative Economic Systems: TA for Prof. Brian Trinque, Spring 2019</p>
 
 - <p style="font-family:Cormorant Garamond;">Money and Banking: TA for Prof. Brian Trinque, Fall 2018</p>
