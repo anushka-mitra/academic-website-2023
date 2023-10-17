@@ -9,9 +9,9 @@ show_title_as_headline: true
 - International Finance: TA for Prof. Saroj Bhattarai, Spring 2023
 - Ph.D. Macroeconomics I: TA for Prof. Stefano Eusepi, Fall 2021, 2022
     - [Teaching Evaluation Fall 2022](uploads/Fall2022_TA_Evals.pdf)
-    - [Teaching Evaluation Fall 2021](uploads/Fall2022_TA_Evals.pdf)
+    - [Teaching Evaluation Fall 2021](uploads/Fall2021_TA_Evals.pdf)
 - Macroeconomic Theory: TA for Prof. Andreas Mueller, Spring 2022
-    - [Teaching Evaluation Spring 2022](uploads/Fall2022_TA_Evals.pdf)
+    - [Teaching Evaluation Spring 2022](uploads/Spring2022_TA_Evals.pdf)
 - Macroeconomic Theory: TA for Prof. Stefano Eusepi, Fall 2021
 - Comparative Economic Systems: TA for Prof. Dayanand Manoli, Fall 2019
 - Money and Banking: TA for Prof. Brian Trinque, Fall 2018 </p>
