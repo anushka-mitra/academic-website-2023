@@ -72,8 +72,3 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
-markup:
-  defaultMarkdownHandler: blackFriday
-  blackFriday:
-    hrefTargetBlank: true
- 
