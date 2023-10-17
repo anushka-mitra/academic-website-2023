@@ -23,6 +23,7 @@ role: Ph.D. Candidate in Economics
 highlight_name: true
 title: Anushka Mitra
 email: anushka@utexas.edu
+avatar_shape: square # circle, square, rounded, leave blank to exclude
 
 ---
 
