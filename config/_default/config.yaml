@@ -57,6 +57,9 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  defaultMarkdownHandler: 'blackFriday'
+  markup.blackFriday:
+    hrefTargetBlank: true
 related:
   threshold: 80
   includeNewer: true
@@ -72,3 +75,4 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+ 
