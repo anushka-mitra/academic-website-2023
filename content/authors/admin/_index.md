@@ -4,9 +4,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:anushka@utexas.edu
-  - icon: twitter
+  - icon: linkedin
     icon_pack: fab
-    link: https://twitter.com/onushka_mitro
+    link: www.linkedin.com/in/anushka-mitra-econ
     label: null
     display:
       header: false
@@ -30,7 +30,7 @@ avatar_shape: square # circle, square, rounded, leave blank to exclude
 <p style="font-family:Cormorant Garamond;text-align: justify;">Welcome! I am an Economist with the <a href="https://www.federalreserve.gov/econres/iftfs-staff.htm">Trade and Financial Studies</a> Section at the Federal Reserve Board. I received a Ph.D. in Economics from the <a href = "https://www.liberalarts.utexas.edu/economics/">University of Texas at Austin</a> in Spring 2024. </p>
 
 
-<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. In my current research, I assess the role of information frictions in explaining labor market dynamics. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a>.</p>
+<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. In my current research, I assess the role of information frictions in explaining labor market dynamics. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a> or <a href="anushka.mitra@frb.gov">anushka.mitra@frb.gov</a>.</p>
 
 
 
