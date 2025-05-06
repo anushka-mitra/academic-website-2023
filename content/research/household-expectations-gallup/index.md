@@ -1,18 +1,6 @@
 ---
 abstract: >
-  <p style="font-family:Cormorant Garamond;text-align: justify;">This paper uses daily data on
-  household expectations to examine what causes households to adjust their
-  expectations about the future of the economy. We analyze several macro
-  variables of policy interest and find that households respond primarily to
-  movements in the unemployment rate. Further, these responses are non-linear
-  and asymmetric, with households displaying higher sensitivity to larger shocks
-  and to negative information indicating a worsening of the economy. We also
-  find heterogeneity across local labor markets: Households in areas with higher
-  local unemployment are more sensitive to changes in national unemployment than
-  those in areas with lower local unemployment. We further examine whether the
-  media plays a role in influencing household expectations, and find that news
-  about unemployment rises sharply during a recession, consistent with the
-  response of expectations.</p>
+  <p style="font-family:Cormorant Garamond;text-align: justify;">This paper investigates what information households use when forming expectations and finds that unemployment shocks, rather than inflation shocks, play the dominant role. Using daily data, we study which macroeconomic announcements cause households to adjust their expectations. We build a model to isolate the unanticipated component of announcements and generate two shock series—assuming households are either sophisticated or naive. We demonstrate that labor market information significantly influences not only households’ subjective expectations about the economy but also their inflation expectations. Even in periods when unemployment is declining and inflation is rising, shocks to unemployment lead to significant adjustments in households’ subjective expectations. Most changes in inflation expectations are driven by shocks to unemployment rather than inflation. Finally, during negative supply and demand shocks, unemployment emerges as the primary driver of household expectations.</p>
 slides: ""
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 # publication_types:
@@ -38,16 +26,4 @@ publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 doi: ""
 ---
- <p style="font-family:Cormorant Garamond;text-align: justify;">This paper uses daily data on
-  household expectations to examine what causes households to adjust their
-  expectations about the future of the economy. We analyze several macro
-  variables of policy interest and find that households respond primarily to
-  movements in the unemployment rate. Further, these responses are non-linear
-  and asymmetric, with households displaying higher sensitivity to larger shocks
-  and to negative information indicating a worsening of the economy. We also
-  find heterogeneity across local labor markets: Households in areas with higher
-  local unemployment are more sensitive to changes in national unemployment than
-  those in areas with lower local unemployment. We further examine whether the
-  media plays a role in influencing household expectations, and find that news
-  about unemployment rises sharply during a recession, consistent with the
-  response of expectations.</p>
+ <p style="font-family:Cormorant Garamond;text-align: justify;">This paper investigates what information households use when forming expectations and finds that unemployment shocks, rather than inflation shocks, play the dominant role. Using daily data, we study which macroeconomic announcements cause households to adjust their expectations. We build a model to isolate the unanticipated component of announcements and generate two shock series—assuming households are either sophisticated or naive. We demonstrate that labor market information significantly influences not only households’ subjective expectations about the economy but also their inflation expectations. Even in periods when unemployment is declining and inflation is rising, shocks to unemployment lead to significant adjustments in households’ subjective expectations. Most changes in inflation expectations are driven by shocks to unemployment rather than inflation. Finally, during negative supply and demand shocks, unemployment emerges as the primary driver of household expectations.</p>
