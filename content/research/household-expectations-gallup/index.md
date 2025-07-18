@@ -15,7 +15,7 @@ publication: ""
 featured: false
 date: 2022-11-01T00:00:00.000Z
 url_slides: ""
-title: What Determines Household Expectations? <i>(Submitted)</i>
+title: What Determines Household Expectations? (Submitted)
 subtitle: 
 tags: []
 projects: []
