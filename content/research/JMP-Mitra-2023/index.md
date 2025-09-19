@@ -19,7 +19,7 @@ image:
 date: 2023-10-15T23:22:49.868Z
 publishDate: 2017-01-01T00:00:00.000Z
 doi: ""
-type: publication
+publication: "<small><em>Under Review</em></small>"
 resources:
 - src: cite.bib
   name: cite.bib
