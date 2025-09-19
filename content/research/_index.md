@@ -12,10 +12,13 @@ comments: false  # Show comments?
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: 3
-
+view: 4
+link_to_detail: false
 # Optional header image (relative to `static/media/` folder).
 # header:
 #  caption: ''
 #  image: ''
+_build:
+  list: true
+  render: false
 ---
