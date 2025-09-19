@@ -5,7 +5,7 @@ draft: false
 slides: ""
 url_pdf: null
 title: Imperfect Information and Slow Recoveries in the Labor Market
-subtitle: 
+subtitle: Job Market Paper
 Description: Job Market Paper
 # publication_types:
 #  - "3"
@@ -19,7 +19,7 @@ image:
 date: 2023-10-15T23:22:49.868Z
 publishDate: 2017-01-01T00:00:00.000Z
 doi: ""
-publication: "<small><em>Under Review</em></small>"
+publication: "<small><em>Submitted</em></small>"
 resources:
 - src: cite.bib
   name: cite.bib

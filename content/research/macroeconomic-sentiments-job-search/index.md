@@ -15,7 +15,7 @@ author_notes: []
 publication: ""
 publication_short: ""
 featured: false
-date: 2023-05-26T22:47:23.504Z
+date: 2021-05-26T22:47:23.504Z
 url_slides: ""
 title: Macroeconomic Sentiments and Job Search Behavior
 tags: []
