@@ -18,7 +18,4 @@ link_to_detail: false
 # header:
 #  caption: ''
 #  image: ''
-_build:
-  list: true
-  render: false
 ---
