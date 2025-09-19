@@ -4,7 +4,7 @@ abstract: >
 draft: false
 slides: ""
 url_pdf: null
-title: Imperfect Information and Slow Recoveries in the Labor Market 
+title: Imperfect Information and Slow Recoveries in the Labor Market
 subtitle: 
 Description: Job Market Paper
 # publication_types:
