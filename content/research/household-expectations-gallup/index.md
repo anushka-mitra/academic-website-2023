@@ -5,7 +5,7 @@ abstract: >
 slides: ""
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189773
 links:
-  - name: IFDP Working Paper
+  - name: International Finance Discussion Paper
     url: https://www.federalreserve.gov/econres/ifdp/what-determines-household-expectations.htm
     icon: file-lines
     icon_pack: fas
