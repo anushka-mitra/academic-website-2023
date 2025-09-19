@@ -1,0 +1,74 @@
+{{/* li_list.html — list row with subtitle + no-link support */}}
+{{ $item := . }}
+
+{{/* Icons / flags by type (unchanged) */}}
+{{ $icon_pack := "far" }}
+{{ $icon := "fa-file-alt" }}
+{{ $show_authors := false }}
+{{ $show_buttons := false }}
+
+{{ if eq $item.Type "post" }}
+  {{ $icon = "fa-newspaper" }}
+{{ else if eq $item.Type "talk" }}
+  {{ $icon = "fa-calendar-alt" }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors = true }}
+  {{ $show_buttons = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $icon_pack = "fas" }}
+  {{ $icon = "fa-project-diagram" }}
+  {{ $show_authors = true }}
+  {{ $show_buttons = true }}
+{{ end }}
+
+{{/* Respect link_to_detail (default true, can be set at site or page or section) */}}
+{{ $link_to_detail := true }}
+{{ with site.Params.list.link_to_detail }}{{ $link_to_detail = . }}{{ end }}
+{{ with $item.Params.link_to_detail }}{{ $link_to_detail = . }}{{ end }}
+
+{{/* Compute link (only used if linking is enabled) */}}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+<div class="view-list-item">
+  <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
+
+  <h3 class="article-title" style="display:inline;">
+    {{ if $link_to_detail }}
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    {{ else }}
+      {{ $item.Title }}
+    {{ end }}
+  </h3>
+
+  {{/* >>> NEW: show subtitle directly under the title <<< */}}
+  {{ with $item.Params.subtitle }}
+    <div class="article-subtitle" style="margin:.15rem 0 .25rem 1.75rem;">{{ . | safeHTML }}</div>
+  {{ end }}
+
+  {{ if eq $item.Type "talk" }}
+    <div class="article-metadata" style="margin-left:1.75rem;">
+      <span>{{ partial "functions/get_event_dates" $item }}</span>
+      {{ with $item.Params.location }}
+        <span class="middot-divider"></span>
+        <span>{{ . }}</span>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ if and $show_authors $item.Params.authors }}
+    <div class="article-metadata" style="margin-left:1.75rem;">
+      {{ partial "page_metadata_authors" $item }}
+    </div>
+  {{ end }}
+
+  {{ if $show_buttons }}
+    <div class="btn-links" style="margin-left:1.75rem;">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+  {{ end }}
+</div>

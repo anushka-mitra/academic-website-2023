@@ -16,13 +16,13 @@ sections:
       columns: '2'
 
       
-  - block: collection
-    content:
-      title: Research
-      filters:
-        folders:
-          - research
-    design:
-      columns: '2'
-      view: compact
+#  - block: collection
+#    content:
+#      title: Research
+#      filters:
+#        folders:
+#          - research
+#    design:
+#      columns: '2'
+#      view: compact
 ---

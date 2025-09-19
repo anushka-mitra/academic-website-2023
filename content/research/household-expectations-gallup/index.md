@@ -9,11 +9,12 @@ links:
     url: https://www.federalreserve.gov/econres/ifdp/what-determines-household-expectations.htm
     icon: file-lines
     icon_pack: fas
+authors: ["aditi-singh", "admin"]
 # publication_types:
   # - "3"
-authors:
-  -  <a href="https://www.aditi-singh.com/home">Aditi Singh</a>
-  -  <a relref="#about">Anushka Mitra</a>
+#authors:
+#  - Aditi Singh   # requires content/authors/aditi-singh/_index.md
+#  - Anushka Mitra         # your profile id
 summary: ""
 # url_source: ""
 # url_video: ""
@@ -22,7 +23,9 @@ featured: false
 date: 2022-11-01T00:00:00.000Z
 url_slides: ""
 title: What Determines Household Expectations?
-subtitle: "<small><em>Submitted</em></small>"
+summary: |
+  <em class="paper-subtitle">Submitted</em>
+subtitle: Submitted
 tags: []
 projects: []
 image:
@@ -35,5 +38,5 @@ doi: ""
 resources:
   - src: "cite.bib"
     name: "cite.bib"
+
 ---
- <p style="font-family:Cormorant Garamond;text-align: justify;">This paper investigates what information households use when forming expectations and finds that unemployment shocks, rather than inflation shocks, play the dominant role. Using daily data, we study which macroeconomic announcements cause households to adjust their expectations. We build a model to isolate the unanticipated component of announcements and generate two shock series—assuming households are either sophisticated or naive. We demonstrate that labor market information significantly influences not only households’ subjective expectations about the economy but also their inflation expectations. Even in periods when unemployment is declining and inflation is rising, shocks to unemployment lead to significant adjustments in households’ subjective expectations. Most changes in inflation expectations are driven by shocks to unemployment rather than inflation. Finally, during negative supply and demand shocks, unemployment emerges as the primary driver of household expectations.</p>

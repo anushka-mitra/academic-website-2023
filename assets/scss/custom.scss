@@ -1,18 +1,124 @@
-/* cormorant-garamond-regular - latin_latin-ext */
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Font: Cormorant Garamond                                                 */
+/* ────────────────────────────────────────────────────────────────────────── */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/cormorant-garamond-v16-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/cormorant-garamond-v16-latin_latin-ext-regular.woff2") format("woff2");
 }
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Header / Nav                                                             */
+/* ────────────────────────────────────────────────────────────────────────── */
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   font-weight: bold;
 }
+
 .navbar-brand {
-    font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Cards + list views (Research page)                                       */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+/* Subtitle under card/list titles (from front matter `subtitle:` or injected) */
+.article-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.85;
+}
+
+/* If you inject a subtitle via `summary: "<em class='paper-subtitle'>…”` */
+.article-style .paper-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.85;
+}
+
+/* Tighten title spacing on cards/lists */
+.card-simple .article-title,
+.view-list-item .article-title {
+  margin-bottom: 0.15rem;
+}
+
+/* Hide the middot and dates in list/card metadata lines */
+.middot-divider { display: none !important; }
+.article-date     { display: none !important; }
+
+/* Authors line in lists/cards */
+.article-metadata,
+.article-metadata a,
+.article-metadata span {
+  font-family: "Cormorant Garamond", serif !important;
+  font-size: 0.92rem;
+  font-style: normal;
+  opacity: 0.9;
+}
+
+.article-metadata { margin-bottom: 0.25rem !important; }
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Single paper pages                                                        */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+/* 1) Subtitle directly under the H1 (covers various templates) */
+.article-container h1 + small,
+.article-container h1 + .page-subtitle,
+.article-container h1 + .article-subtitle,
+.article-container .page-subtitle,
+.article-container .article-subtitle {
+  font-family: "Cormorant Garamond", serif !important;
+  font-style: italic !important;
+  display: block;
+  margin-top: .15rem;
+  margin-bottom: .35rem;
+  opacity: .9;
+}
+
+/* 2) Metadata line (authors/venue/date) */
+.article-container .article-metadata,
+.article-container .article-metadata *,
+.article-container .pub-publication,
+.article-container .pub-publication * {
+  font-family: "Cormorant Garamond", serif !important;
+  font-size: 0.95rem !important;
+  font-style: normal !important;
+  opacity: 0.9 !important;
+}
+
+/* Hide date on single pages too */
+.article-container .article-date { display: none !important; }
+
+/* Tighten title spacing on single pages */
+.article-container .article-title {
+  margin-bottom: 0.2rem;
+}
+
+/* Remove the author profile/card at the bottom of single pages */
+.author-card,
+.page-author,
+.page-author-card,
+.article-container .author-card {
+  display: none !important;
+}
+
+/* Optional: figure captions match the font */
+.figure, figcaption, .caption, .figure-caption {
+  font-family: "Cormorant Garamond", serif;
 }

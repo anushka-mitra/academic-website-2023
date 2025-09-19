@@ -22,6 +22,7 @@ first_name: Anushka
 role: Economist
 highlight_name: true
 title: Anushka Mitra
+name: "Anushka Mitra"
 email: anushka@utexas.edu
 avatar_shape: square # circle, square, rounded, leave blank to exclude
 
@@ -30,7 +31,7 @@ avatar_shape: square # circle, square, rounded, leave blank to exclude
 <p style="font-family:Cormorant Garamond;text-align: justify;">Welcome! I am an Economist with the <a href="https://www.federalreserve.gov/econres/iftfs-staff.htm">Trade and Financial Studies</a> Section at the Federal Reserve Board. I received a Ph.D. in Economics from the <a href = "https://www.liberalarts.utexas.edu/economics/">University of Texas at Austin</a> in Spring 2024. </p>
 
 
-<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. In my current research, I assess the role of information frictions in explaining labor market dynamics. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a> or <a href="anushka.mitra@frb.gov">anushka.mitra@frb.gov</a>.</p>
+<p style="font-family:Cormorant Garamond;text-align: justify;">My research interest is in Macroeconomics and Labor Economics. My work studies how imperfect information and noisy signals shape unemployment dynamics, forecast errors, and the pace of labor market recoveries. I also examine how households form expectations and how these beliefs, alongside labor market frictions, influence job search behavior and policy effectiveness. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a> or <a href="anushka.mitra@frb.gov">anushka.mitra@frb.gov</a>.</p>
 
 
 
