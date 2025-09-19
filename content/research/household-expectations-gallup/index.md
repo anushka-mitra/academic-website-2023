@@ -1,4 +1,5 @@
 ---
+type: publication
 abstract: >
   <p style="font-family:Cormorant Garamond;text-align: justify;">This paper investigates what information households use when forming expectations and finds that unemployment shocks, rather than inflation shocks, play the dominant role. Using daily data, we study which macroeconomic announcements cause households to adjust their expectations. We build a model to isolate the unanticipated component of announcements and generate two shock series—assuming households are either sophisticated or naive. We demonstrate that labor market information significantly influences not only households’ subjective expectations about the economy but also their inflation expectations. Even in periods when unemployment is declining and inflation is rising, shocks to unemployment lead to significant adjustments in households’ subjective expectations. Most changes in inflation expectations are driven by shocks to unemployment rather than inflation. Finally, during negative supply and demand shocks, unemployment emerges as the primary driver of household expectations.</p>
 slides: ""
@@ -31,5 +32,8 @@ image:
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 doi: ""
+resources:
+  - src: "cite.bib"
+    name: "cite.bib"
 ---
  <p style="font-family:Cormorant Garamond;text-align: justify;">This paper investigates what information households use when forming expectations and finds that unemployment shocks, rather than inflation shocks, play the dominant role. Using daily data, we study which macroeconomic announcements cause households to adjust their expectations. We build a model to isolate the unanticipated component of announcements and generate two shock series—assuming households are either sophisticated or naive. We demonstrate that labor market information significantly influences not only households’ subjective expectations about the economy but also their inflation expectations. Even in periods when unemployment is declining and inflation is rising, shocks to unemployment lead to significant adjustments in households’ subjective expectations. Most changes in inflation expectations are driven by shocks to unemployment rather than inflation. Finally, during negative supply and demand shocks, unemployment emerges as the primary driver of household expectations.</p>
