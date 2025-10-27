@@ -4,10 +4,15 @@ abstract: >
 draft: false
 slides: ""
 url_pdf: null
+links:
+  - name: International Finance Discussion Papers
+    url: https://www.federalreserve.gov/econres/ifdp/imperfect-information-and-slow-recoveries-in-the-labor-market.htm
+    icon: file-lines
+    icon_pack: fas
 title: Imperfect Information and Slow Recoveries in the Labor Market
 summary: |
   <em class="paper-subtitle">Job Market Paper</em>
-subtitle: Job Market Paper
+subtitle: Submitted (Job Market Paper)
 # publication_types:
 #  - "3"
 authors: ["admin"]
