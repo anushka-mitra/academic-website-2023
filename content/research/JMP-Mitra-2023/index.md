@@ -11,7 +11,7 @@ links:
     icon_pack: fas
 title: Imperfect Information and Slow Recoveries in the Labor Market
 summary: |
-  <em class="paper-subtitle">Job Market Paper</em>
+  <em class="paper-subtitle">Submitted (Job Market Paper)</em>
 subtitle: Submitted (Job Market Paper)
 # publication_types:
 #  - "3"
