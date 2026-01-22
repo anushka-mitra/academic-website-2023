@@ -37,11 +37,11 @@ sections:
         <!--Custom spacing-->
         <div class="mb-3"></div>
         <!--GitHub Button JS-->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
     design:
       # Choose an optional background color, gradient, image, or video
       background:
      #   gradient_end: ''
      #   gradient_start: ''
-       
+
 ---

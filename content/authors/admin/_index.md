@@ -1,5 +1,9 @@
 ---
-bio: null
+title: Anushka Mitra
+first_name: Anushka
+last_name: Mitra
+name: "Anushka Mitra"
+email: anushka@utexas.edu
 social:
   - icon: envelope
     icon_pack: fas
@@ -13,19 +17,15 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/Mitra_Anushka_CV.pdf
+avatar_shape: square # circle, square, rounded, leave blank to exclude
+
+role: Economist
 organizations:
   - name: Federal Reserve Board
     url:  https://www.federalreserve.gov/econres/iftfs-staff.htm
-superuser: true
-last_name: Mitra
-first_name: Anushka
-role: Economist
+bio: null
 highlight_name: true
-title: Anushka Mitra
-name: "Anushka Mitra"
-email: anushka@utexas.edu
-avatar_shape: square # circle, square, rounded, leave blank to exclude
-
+superuser: true
 ---
 
 <p style="font-family:Cormorant Garamond;text-align: justify;">Welcome! I am an Economist with the <a href="https://www.federalreserve.gov/econres/iftfs-staff.htm">Trade and Financial Studies</a> Section at the Federal Reserve Board. I received a Ph.D. in Economics from the <a href = "https://www.liberalarts.utexas.edu/economics/">University of Texas at Austin</a> in Spring 2024. </p>
@@ -35,9 +35,9 @@ avatar_shape: square # circle, square, rounded, leave blank to exclude
 
 
 
-  
 
-  
+
+
 
 
 

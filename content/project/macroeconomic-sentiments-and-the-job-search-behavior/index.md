@@ -2,9 +2,9 @@
 title: Macroeconomic Sentiments and the Job Search Behavior
 date: 2021-10-26T22:59:46.080Z
 draft: false
-featured: false
 authors:
   - admin
+featured: false
 image:
   filename: ""
   focal_point: ""

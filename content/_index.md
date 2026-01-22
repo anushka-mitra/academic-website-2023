@@ -1,9 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
 title: Anushka Mitra
+#      title: Research
 date: 2022-10-24
 type: landing
 
+#      view: compact
 sections:
   - block: v1/about
     id: about
@@ -15,14 +17,12 @@ sections:
       design:
       columns: '2'
 
-      
+
 #  - block: collection
 #    content:
-#      title: Research
 #      filters:
 #        folders:
 #          - research
 #    design:
 #      columns: '2'
-#      view: compact
 ---

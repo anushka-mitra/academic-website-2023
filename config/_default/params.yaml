@@ -89,7 +89,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: 
+    provider:
     algolia:
       app_id: ''
       api_key: ''
@@ -114,5 +114,5 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
-  
+
 link_authors: true

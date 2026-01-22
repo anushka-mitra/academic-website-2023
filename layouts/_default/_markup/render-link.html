@@ -1,7 +1,7 @@
 <a
 
   {{ if or (strings.HasPrefix .Destination `http`) (strings.HasPrefix .Destination `#`) (strings.HasPrefix .Destination `/`) }}
-  
+
     href = "{{ .Destination | safeURL }}"
 
     {{ else if strings.HasPrefix .Destination `mailto` }}
@@ -11,9 +11,9 @@
   {{ end }}
 
   {{ with .Title}}
-    
+
     title = "{{ . }}"
-  
+
   {{ end }}
 
   {{ if strings.HasPrefix .Destination "http" }}
@@ -26,7 +26,7 @@
       onClick = "javascript:window.open('mailto:{{ .Text }}', 'mail'); event.preventDefault()"
 
   {{ end }}>
-  
+
   <span>
     {{ .Text }}
   </span>

@@ -1,19 +1,19 @@
 ---
 title: Working Papers
 summary: An introduction to using Academic's Slides feature.
+date: "2019-02-05T00:00:00Z"
 authors: []
 tags: []
 categories: []
-date: "2019-02-05T00:00:00Z"
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
-view: card
 slides: #research
   design:
         columns: '2'
-        view: card 
+        view: card
+view: card
+profile: false  # Show author profile?
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+comments: false  # Show comments?
 ---
 
  # Macroeconomic Sentiments and the Job Search Behavior
@@ -51,6 +51,6 @@ slides: #research
 
 
 
-  
+
 
 

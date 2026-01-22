@@ -29,6 +29,11 @@
 {{ else if $item.Summary }}
   {{ $summary = $item.Summary }}
 {{ end }}
+{{/* Get abstract separately so we can show both summary and abstract. */}}
+{{ $abstract := "" }}
+{{ if $item.Params.abstract }}
+  {{ $abstract = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ end }}
 
 <div class="media stream-item">
   <div class="media-body">
@@ -38,6 +43,13 @@
     </h3>
 
     {{ with $summary }}
+    <a href="{{ $item.RelPermalink }}" class="summary-link">
+      <div class="article-style">
+        {{.}}
+      </div>
+    </a>
+    {{ end }}
+    {{ with $abstract }}
     <a href="{{ $item.RelPermalink }}" class="summary-link">
       <div class="article-style">
         {{.}}
