@@ -18,11 +18,15 @@ image:
 slides: ""
 type: publication
 links:
+  - name: Online Appendix
+    url: /research/JMP-Mitra-2023/JMP-Mitra-2023-online-appendix.pdf
+    icon: file-lines
+    icon_pack: fas
   - name: International Finance Discussion Papers
     url: https://www.federalreserve.gov/econres/ifdp/imperfect-information-and-slow-recoveries-in-the-labor-market.htm
     icon: file-lines
     icon_pack: fas
-url_pdf: null
+url_pdf: /research/JMP-Mitra-2023/JMP-Mitra-2023.pdf
 doi: ""
 publication: ""
 # publication_types:
@@ -31,4 +35,3 @@ resources:
 - src: cite.bib
   name: cite.bib
 ---
-
