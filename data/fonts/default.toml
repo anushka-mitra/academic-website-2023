@@ -2,13 +2,13 @@
 name = "default"
 
 # Optional Google font URL
-google_fonts = "family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700"
+google_fonts = "family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600"
 
 # Font families
 heading_font = "Cormorant Garamond"
-body_font = "Overpass"
-nav_font = "Overpass"
-mono_font = "Overpass"
+body_font = "Cormorant Garamond"
+nav_font = "Cormorant Garamond"
+mono_font = "Menlo"
 
 # Font size
 #font_size = "20"

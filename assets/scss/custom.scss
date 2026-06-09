@@ -2,12 +2,43 @@
 /*  Font: Cormorant Garamond                                                 */
 /* ────────────────────────────────────────────────────────────────────────── */
 
-@font-face {
-  font-display: swap;
-  font-family: "Cormorant Garamond";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/cormorant-garamond-v16-latin_latin-ext-regular.woff2") format("woff2");
+$body-font-stack: "Cormorant Garamond", Georgia, serif;
+$heading-font-stack: "Cormorant Garamond", Georgia, serif;
+
+body,
+.article-style,
+.page-body,
+.universal-wrapper,
+.docs-article-container,
+.article-container,
+.navbar,
+.btn,
+input,
+button,
+select,
+textarea {
+  font-family: $body-font-stack !important;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.article-style {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.portrait-title h2,
+.portrait-title h3,
+.section-heading h1,
+.section-subheading {
+  font-family: $heading-font-stack !important;
 }
 
 /* ────────────────────────────────────────────────────────────────────────── */
@@ -16,24 +47,265 @@
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-family: "Cormorant Garamond", serif;
+  font-family: $heading-font-stack;
   font-size: 20px;
   font-weight: bold;
 }
 
 .navbar-brand {
-  font-family: "Cormorant Garamond", serif;
+  font-family: $heading-font-stack;
 }
 
 /* ────────────────────────────────────────────────────────────────────────── */
 /*  Cards + list views (Research page)                                       */
 /* ────────────────────────────────────────────────────────────────────────── */
 
+.universal-wrapper .research-intro {
+  max-width: 760px;
+  margin: 0 auto 2.75rem;
+  font-family: $body-font-stack;
+  font-size: 1.12rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.research-list {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.research-list .grid-sizer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.research-paper {
+  padding: 2rem 0 2.15rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.research-paper:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.dark .research-paper {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.dark .research-paper:last-child {
+  border-bottom-color: rgba(255, 255, 255, 0.18);
+}
+
+.research-paper__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.55rem;
+  align-items: center;
+  margin-bottom: 0.55rem;
+  font-family: $body-font-stack;
+  font-size: 0.98rem;
+  line-height: 1.3;
+  opacity: 0.82;
+}
+
+.research-paper__meta .article-metadata,
+.research-paper__meta .article-metadata a,
+.research-paper__meta .article-metadata span {
+  font-size: inherit !important;
+}
+
+.research-paper__dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.65;
+}
+
+.research-paper__title {
+  max-width: 820px;
+  margin: 0 0 0.75rem;
+  font-family: $heading-font-stack;
+  font-size: 1.75rem;
+  line-height: 1.14;
+}
+
+.research-paper__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.research-paper__title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.research-paper__abstract {
+  max-width: 820px;
+  margin-bottom: 0.85rem;
+  font-family: $body-font-stack;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.research-paper__abstract summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.25;
+  opacity: 0.9;
+  list-style: none;
+}
+
+.research-paper__abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-paper__toggle {
+  position: relative;
+  width: 0.78rem;
+  height: 0.78rem;
+  flex: 0 0 0.78rem;
+}
+
+.research-paper__toggle::before,
+.research-paper__toggle::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  content: "";
+  background: currentColor;
+  transform: translateY(-50%);
+}
+
+.research-paper__toggle::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.research-paper__abstract[open] .research-paper__toggle::after {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.research-paper__abstract-body {
+  padding: 0.35rem 0 0.35rem 1.25rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.dark .research-paper__abstract-body {
+  border-left-color: rgba(255, 255, 255, 0.22);
+}
+
+.research-paper__abstract-body p {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.research-paper__conferences {
+  max-width: 820px;
+  margin: 0 0 0.85rem;
+  font-family: $body-font-stack;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  opacity: 0.88;
+}
+
+.research-paper__label {
+  font-weight: 700;
+}
+
+.research-paper__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.research-paper__links .btn,
+.research-paper__links a.btn {
+  margin: 0 0.35rem 0.35rem 0;
+  max-width: 100%;
+  font-family: $heading-font-stack;
+  font-size: 0.95rem;
+  font-weight: 400;
+  white-space: normal;
+  line-height: 1.25;
+  text-align: left;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.research-presentations {
+  max-width: 920px;
+  margin: 3rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  font-family: $body-font-stack;
+}
+
+.dark .research-presentations {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.research-presentations h2 {
+  margin: 0 0 1.15rem;
+  font-family: $heading-font-stack;
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+.research-presentations__year {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.65rem 0;
+}
+
+.research-presentations__year h3,
+.research-presentations__year p {
+  margin: 0;
+  font-family: $body-font-stack;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.research-presentations__year h3 {
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .universal-wrapper .research-intro {
+    margin-bottom: 1.75rem;
+    font-size: 1.08rem;
+    text-align: left;
+  }
+
+  .research-paper {
+    padding: 1.45rem 0 1.55rem;
+  }
+
+  .research-paper__title {
+    font-size: 1.45rem;
+  }
+
+  .research-presentations {
+    margin-top: 2rem;
+  }
+
+  .research-presentations__year {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
 /* Subtitle under card/list titles (from front matter `subtitle:` or injected) */
 .article-subtitle {
   display: block;
   font-size: 0.9rem;
-  font-family: "Cormorant Garamond", serif;
+  font-family: $body-font-stack;
   font-style: italic;
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
@@ -44,7 +316,7 @@ nav#navbar-main li.nav-item {
 .article-style .paper-subtitle {
   display: block;
   font-size: 0.9rem;
-  font-family: "Cormorant Garamond", serif;
+  font-family: $body-font-stack;
   font-style: italic;
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
@@ -65,7 +337,7 @@ nav#navbar-main li.nav-item {
 .article-metadata,
 .article-metadata a,
 .article-metadata span {
-  font-family: "Cormorant Garamond", serif !important;
+  font-family: $body-font-stack !important;
   font-size: 0.92rem;
   font-style: normal;
   opacity: 0.9;
@@ -83,7 +355,7 @@ nav#navbar-main li.nav-item {
 .article-container h1 + .article-subtitle,
 .article-container .page-subtitle,
 .article-container .article-subtitle {
-  font-family: "Cormorant Garamond", serif !important;
+  font-family: $body-font-stack !important;
   font-style: italic !important;
   display: block;
   margin-top: .15rem;
@@ -96,7 +368,7 @@ nav#navbar-main li.nav-item {
 .article-container .article-metadata *,
 .article-container .pub-publication,
 .article-container .pub-publication * {
-  font-family: "Cormorant Garamond", serif !important;
+  font-family: $body-font-stack !important;
   font-size: 0.95rem !important;
   font-style: normal !important;
   opacity: 0.9 !important;
@@ -120,5 +392,30 @@ nav#navbar-main li.nav-item {
 
 /* Optional: figure captions match the font */
 .figure, figcaption, .caption, .figure-caption {
-  font-family: "Cormorant Garamond", serif;
+  font-family: $body-font-stack;
+}
+
+.page-footer .site-footer {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.site-footer .footer-disclaimer {
+  max-width: 760px;
+  margin: 0.65rem 0 0;
+  font-family: $body-font-stack;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.site-footer .powered-by,
+.site-footer .copyright-license-text {
+  text-align: left;
+}
+
+.dark .site-footer .footer-disclaimer {
+  color: rgba(255, 255, 255, 0.62);
 }

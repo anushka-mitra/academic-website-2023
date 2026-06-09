@@ -1,0 +1,66 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+
+      {{ with .Content }}
+      <div class="research-intro article-style">{{ . }}</div>
+      {{ end }}
+
+      <div id="container-publications" class="research-list">
+        {{ range .Pages.ByDate.Reverse }}
+
+        {{ if .Params.publication_types }}
+          {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
+        {{ else }}
+          {{ $.Scratch.Set "pubtype" 0 }}
+        {{ end }}
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
+          <article class="research-paper">
+            <div class="research-paper__meta">
+              {{ with .Params.status }}<span>{{ . }}</span>{{ end }}
+              {{ if and .Params.status .Params.authors }}<span class="research-paper__dot" aria-hidden="true"></span>{{ end }}
+              {{ if .Params.authors }}<span>{{ partial "page_metadata_authors" . }}</span>{{ end }}
+            </div>
+
+            <h2 class="research-paper__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+
+            {{ with .Params.abstract }}
+              <details class="research-paper__abstract">
+                <summary>
+                  <span class="research-paper__toggle" aria-hidden="true"></span>
+                  <span>Abstract</span>
+                </summary>
+                <div class="research-paper__abstract-body article-style">
+                  {{ . | markdownify }}
+                </div>
+              </details>
+            {{ end }}
+
+            {{ with .Params.conferences }}
+              <div class="research-paper__conferences">
+                <span class="research-paper__label">Presentations:</span>
+                <span>{{ delimit . ", " }}</span>
+              </div>
+            {{ end }}
+
+            <div class="research-paper__links btn-links">
+              {{ partial "page_links" (dict "page" . "is_list" 1) }}
+            </div>
+          </article>
+        </div>
+
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{{- end -}}

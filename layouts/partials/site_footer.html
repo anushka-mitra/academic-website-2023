@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
+
+  {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
+  {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
+  {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
+    {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
+  {{ end }}
+  {{ partial $footer_section_path . }}
+  <p class="footer-disclaimer">
+    The views expressed on this site are my own and should not be interpreted as reflecting the views of the Board of Governors of the Federal Reserve System or any other person associated with the Federal Reserve System.
+  </p>
+</footer>

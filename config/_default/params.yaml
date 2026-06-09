@@ -47,7 +47,7 @@ footer:
   copyright:
     notice: '© {year} Anushka Mitra'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: false
       allow_commercial: false
