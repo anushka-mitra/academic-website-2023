@@ -8,6 +8,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:anushka@utexas.edu
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?authuser=2&user=gpvO1C4AAAAJ
+    label: Google Scholar
   - icon: linkedin
     icon_pack: fab
     link: www.linkedin.com/in/anushka-mitra-econ
@@ -32,7 +36,6 @@ superuser: true
 
 
 <p style="text-align: justify;">My research interest is in Macroeconomics and Labor Economics. My work studies how imperfect information and noisy signals shape unemployment dynamics, forecast errors, and the pace of labor market recoveries. I also examine how households form expectations and how these beliefs, alongside labor market frictions, influence job search behavior and policy effectiveness. For more information, please contact me at <a href="anushka@utexas.edu">anushka@utexas.edu</a> or <a href="anushka.mitra@frb.gov">anushka.mitra@frb.gov</a>.</p>
-
 
 
 
