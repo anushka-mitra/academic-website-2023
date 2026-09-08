@@ -114,6 +114,23 @@ nav#navbar-main li.nav-item {
   font-size: inherit !important;
 }
 
+.research-paper__new {
+  padding: 0.08rem 0.38rem;
+  border: 1px solid rgba(21, 101, 192, 0.55);
+  border-radius: 3px;
+  color: #1565c0;
+  background: rgba(21, 101, 192, 0.07);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.dark .research-paper__new {
+  border-color: rgba(144, 202, 249, 0.65);
+  color: #90caf9;
+  background: rgba(144, 202, 249, 0.1);
+}
+
 .research-paper__dot {
   width: 3px;
   height: 3px;
