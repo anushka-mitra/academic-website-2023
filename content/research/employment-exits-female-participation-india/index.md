@@ -17,4 +17,7 @@ type: publication
 url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7694078
 publication: ""
 projects: []
+resources:
+  - src: cite.bib
+    name: cite.bib
 ---
