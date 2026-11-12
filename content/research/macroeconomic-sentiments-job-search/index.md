@@ -27,6 +27,7 @@ doi: ""
 publication: ""
 publication_short: ""
 conferences:
+  - SEA 2026
   - EU SaM 2026*
   - SED 2026*
   - Midwest Macro 2022
