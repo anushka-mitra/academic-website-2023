@@ -6,7 +6,6 @@ abstract: >
 date: 2026-09-07T00:00:00-04:00
 weight: 40
 new: true
-new_in_title: true
 draft: false
 authors: ["admin", "aniket-baksy", "suryansh-upmanyu"]
 featured: false
