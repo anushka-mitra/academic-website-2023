@@ -22,6 +22,10 @@
           <article class="research-paper">
             <div class="research-paper__meta">
               {{ with .Params.status }}<span>{{ . }}</span>{{ end }}
+              {{ with .Params.paper_label }}
+                <span class="research-paper__dot" aria-hidden="true"></span>
+                <span>{{ . }}</span>
+              {{ end }}
               {{ if and .Params.status .Params.authors }}<span class="research-paper__dot" aria-hidden="true"></span>{{ end }}
               {{ if .Params.authors }}<span>{{ partial "page_metadata_authors" . }}</span>{{ end }}
             </div>
