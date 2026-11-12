@@ -29,7 +29,8 @@ url_pdf: /research/JMP-Mitra-2023/JMP-Mitra-2023.pdf
 doi: ""
 publication: ""
 conferences:
-  - EEA-ESEM 2026*
+  - ASSA 2027*
+  - EEA-ESEM 2026
   - 5th DC SaM Workshop 2026
   - FRB St. Louis-WashU-LAEF Macro Conference 2026
   - System Macro Conference 2025
