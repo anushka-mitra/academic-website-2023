@@ -1,5 +1,5 @@
 ---
-title: Which Skills Matter? The Struggles of Young College Graduates in the Labor Market
+title: "Soft Skills, Hard Times: Why New College Graduates Are Falling Behind"
 status: Work in progress
 abstract: >
   The unemployment rate for young college graduates has worsened in recent years. This has happened along with a rise in demand for noncognitive skills by employers. We argue that noncognitive skills can only be accumulated on the job, implying that the increase in demand for such skills harms young workers disproportionately since they enter the labor market without any work experience. We use a general equilibrium search-and-matching model with heterogeneous firms and workers, calibrated to the US labor market during the early 2010s to study this mechanism. Our model shows that skill-biased technical change shifts employer demand towards high-skilled workers, and this explains 36% of the worsening of the unemployment rate for young college graduates.

@@ -20,20 +20,30 @@
         {{ if eq (eq .Params.status "Work in progress") $in_progress }}
         <div class="research-paper-item">
           <article class="research-paper">
-            <div class="research-paper__meta">
-              {{ with .Params.status }}<span>{{ . }}</span>{{ end }}
-              {{ with .Params.paper_label }}
-                <span class="research-paper__dot" aria-hidden="true"></span>
-                <span>{{ . }}</span>
-              {{ end }}
-              {{ if and .Params.status .Params.authors }}<span class="research-paper__dot" aria-hidden="true"></span>{{ end }}
-              {{ if .Params.authors }}<span>{{ partial "page_metadata_authors" . }}</span>{{ end }}
-            </div>
-
             <h3 class="research-paper__title">
               {{ if .Params.new }}<span class="research-paper__new">New!</span>{{ end }}
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h3>
+
+            {{ $coauthors := slice }}
+            {{ range .Params.authors }}
+              {{ if ne . "admin" }}{{ $coauthors = $coauthors | append . }}{{ end }}
+            {{ end }}
+            {{ with $coauthors }}
+            <div class="research-paper__meta">
+              <span>with {{ range $index, $author := . }}{{ if $index }}, {{ end }}{{ with site.GetPage (printf "/authors/%s" $author) }}<a href="{{ .Params.external_link | default .RelPermalink }}">{{ .Params.name | default .Title }}</a>{{ end }}{{ end }}</span>
+            </div>
+            {{ end }}
+            {{ if or (not $in_progress) .Params.paper_label }}
+            <div class="research-paper__meta">
+              {{ if not $in_progress }}{{ with .Params.status }}<span>{{ . }}</span>{{ end }}{{ end }}
+              {{ with .Params.paper_label }}<span>{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+
+            <div class="research-paper__links btn-links">
+              {{ partial "page_links" (dict "page" . "is_list" 1) }}
+            </div>
 
             {{ with .Params.abstract }}
               <details class="research-paper__abstract">
@@ -48,15 +58,12 @@
             {{ end }}
 
             {{ with .Params.conferences }}
-              <div class="research-paper__conferences">
-                <span class="research-paper__label">Presentations:</span>
-                <span>{{ delimit . ", " }}</span>
-              </div>
+              <details class="research-paper__abstract research-paper__conferences">
+                <summary><span class="research-paper__toggle" aria-hidden="true"></span><span>Presentations</span></summary>
+                <div class="research-paper__abstract-body">{{ delimit . ", " }}</div>
+              </details>
             {{ end }}
 
-            <div class="research-paper__links btn-links">
-              {{ partial "page_links" (dict "page" . "is_list" 1) }}
-            </div>
           </article>
         </div>
 
