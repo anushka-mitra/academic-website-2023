@@ -85,6 +85,22 @@ nav#navbar-main li.nav-item {
   line-height: 1.2;
 }
 
+.research-section__title#working-papers {
+  color: #275b85;
+}
+
+.research-section__title#work-in-progress {
+  color: #39705b;
+}
+
+.dark .research-section__title#working-papers {
+  color: #94bddc;
+}
+
+.dark .research-section__title#work-in-progress {
+  color: #9bcbb4;
+}
+
 .research-list .grid-sizer {
   padding-right: 0;
   padding-left: 0;
