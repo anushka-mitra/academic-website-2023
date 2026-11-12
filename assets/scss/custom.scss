@@ -74,6 +74,17 @@ nav#navbar-main li.nav-item {
   margin: 0 auto;
 }
 
+.research-section + .research-section {
+  margin-top: 1.5rem;
+}
+
+.research-section__title {
+  margin: 0 0 0.65rem;
+  font-family: $heading-font-stack;
+  font-size: 1.65rem;
+  line-height: 1.2;
+}
+
 .research-list .grid-sizer {
   padding-right: 0;
   padding-left: 0;

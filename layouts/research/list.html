@@ -11,7 +11,13 @@
       {{ end }}
 
       <div id="container-publications" class="research-list">
-        {{ range .Pages.ByWeight }}
+        {{ $papers := .Pages.ByWeight }}
+        {{ range slice (dict "title" "Working Papers" "in_progress" false) (dict "title" "Work in Progress" "in_progress" true) }}
+        <section class="research-section" aria-labelledby="{{ .title | urlize }}">
+          <h2 class="research-section__title" id="{{ .title | urlize }}">{{ .title }}</h2>
+        {{ $in_progress := .in_progress }}
+        {{ range $papers }}
+        {{ if eq (eq .Params.status "Work in progress") $in_progress }}
         <div class="research-paper-item">
           <article class="research-paper">
             <div class="research-paper__meta">
@@ -20,10 +26,10 @@
               {{ if .Params.authors }}<span>{{ partial "page_metadata_authors" . }}</span>{{ end }}
             </div>
 
-            <h2 class="research-paper__title">
+            <h3 class="research-paper__title">
               {{ if .Params.new }}<span class="research-paper__new">New!</span>{{ end }}
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </h2>
+            </h3>
 
             {{ with .Params.abstract }}
               <details class="research-paper__abstract">
@@ -50,6 +56,9 @@
           </article>
         </div>
 
+        {{ end }}
+        {{ end }}
+        </section>
         {{ end }}
       </div>
 
