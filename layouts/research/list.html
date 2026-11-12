@@ -15,7 +15,7 @@
         <div class="research-paper-item">
           <article class="research-paper">
             <div class="research-paper__meta">
-              {{ if .Params.new }}<span class="research-paper__new">New!</span>{{ end }}
+              {{ if and .Params.new (not .Params.new_in_title) }}<span class="research-paper__new">New!</span>{{ end }}
               {{ with .Params.status }}<span>{{ . }}</span>{{ end }}
               {{ if and .Params.status .Params.authors }}<span class="research-paper__dot" aria-hidden="true"></span>{{ end }}
               {{ if .Params.authors }}<span>{{ partial "page_metadata_authors" . }}</span>{{ end }}
@@ -23,6 +23,7 @@
 
             <h2 class="research-paper__title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ if .Params.new_in_title }}<span class="research-paper__new">[New!]</span>{{ end }}
             </h2>
 
             {{ with .Params.abstract }}

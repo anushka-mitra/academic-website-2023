@@ -6,6 +6,7 @@ abstract: >
 date: 2026-11-11T00:00:00-05:00
 weight: 50
 new: true
+new_in_title: true
 draft: false
 authors: ["aniket-baksy", "admin", "abhiprerna-smit"]
 featured: false
