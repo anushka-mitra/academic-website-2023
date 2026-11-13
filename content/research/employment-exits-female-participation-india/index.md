@@ -15,7 +15,7 @@ image:
   focal_point: ""
   preview_only: true
 type: publication
-url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7694078
+url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7700978
 publication: ""
 projects: []
 resources:
